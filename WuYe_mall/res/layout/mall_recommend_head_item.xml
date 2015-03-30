@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hg.android.widget.ScaleFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    custom:heightScale="0.63" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mall_myrecommend_bg"
+        android:orientation="vertical" >
+
+        <!-- 头像栏目 -->
+
+        <LinearLayout
+            android:id="@+id/head_portrait_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dip" >
+
+            <com.e1858.common.widget.CircularImage
+                android:id="@+id/head_portrait"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/personal_head_icon" />
+        </LinearLayout>
+        <!-- 昵称/楼号 -->
+
+        <TextView
+            android:id="@+id/mall_recommend_head_tv_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/head_portrait_ll"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dip"
+            android:text="昵称/楼号"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+        <!-- 个性签名 -->
+
+        <TextView
+            android:id="@+id/mall_recommend_head_tv_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="这家伙很懒，个性签名也没有。。。"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:visibility="gone" />
+        <!-- 点赞和评论 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="10dip"
+            android:background="@color/transparent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mall_myremmend_heart" />
+
+                <TextView
+                    android:id="@+id/mall_recommend_head_tv_heartnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="4dip"
+                android:layout_marginTop="4dip"
+                android:background="@color/wheat" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mall_myremmend_comm" />
+
+                <TextView
+                    android:id="@+id/mall_recommend_head_tv_commnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</com.hg.android.widget.ScaleFrameLayout>

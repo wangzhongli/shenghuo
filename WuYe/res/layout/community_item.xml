@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_margin"
+    android:background="@drawable/listview_item_background"
+    android:orientation="vertical" >
+    <ImageView 
+        android:id="@id/item_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:background="@drawable/select_house_btn_background"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@id/item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/item_icon"
+        android:layout_alignParentLeft="true"
+        style="@style/body_color_font"
+        />
+      <TextView
+        android:id="@id/item_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/notes_color_font"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/item_icon"
+        android:layout_below="@id/item_title"
+        />
+</RelativeLayout>

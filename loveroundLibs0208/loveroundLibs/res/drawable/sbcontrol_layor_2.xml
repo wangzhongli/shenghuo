@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--
+    <item
+        android:id="@android:id/background"
+        android:drawable="@drawable/action_forward">
+    </item>
+    <item
+        android:id="@android:id/progress"
+        android:drawable="@drawable/action_back">
+    </item>
+    -->
+    
+
+    <item android:id="@android:id/background"> <!-- // 背景项 -->
+        <nine-patch android:src="@drawable/progress_bar_bg" /><!--  // 背景图 // 这里使用9文件，因此这么配置如果使用的是普通图片可直接使用<drawable />标签，或者使用<shape />标签，自定义图形-->
+    </item> 
+    <item android:id="@android:id/progress"> <!-- // 进度项 -->
+        <clip>
+            <nine-patch android:src="@drawable/progress_bar_fg" /> <!-- // 进度图 -->
+        </clip>
+    </item>
+
+
+    
+
+    <!-- <item android:id="@android:id/background">
+        <clip>
+            <shape>
+                <corners
+                    android:bottomLeftRadius="5dp"
+                    android:bottomRightRadius="5dp"
+                    android:topLeftRadius="5dp"
+                    android:topRightRadius="5dp" />
+
+                <gradient
+                    android:angle="0"
+                    android:endColor="#000000"
+                    android:startColor="#000000" />
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners
+                    android:bottomLeftRadius="5dp"
+                    android:bottomRightRadius="5dp"
+                    android:topLeftRadius="5dp"
+                    android:topRightRadius="5dp" />
+
+                <gradient
+                    android:angle="0"
+                    android:endColor="#71D1E2"
+                    android:startColor="#71D1E2" />
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners
+                    android:bottomLeftRadius="5dp"
+                    android:bottomRightRadius="5dp"
+                    android:topLeftRadius="5dp"
+                    android:topRightRadius="5dp" />
+
+                <gradient
+                    android:angle="0"
+                    android:endColor="#A1EAF4"
+                    android:startColor="#A1EAF4" />
+            </shape>
+        </clip>
+    </item> -->
+
+</layer-list>

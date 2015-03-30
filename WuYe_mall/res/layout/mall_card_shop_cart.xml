@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/orderConfirmCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/shopNameContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dip" >
+
+        <CheckBox
+            android:id="@+id/checkBox_shopName"
+            android:layout_width="wrap_content"
+            android:layout_height="25dip"
+            android:textColor="@color/black"
+            android:layout_marginRight="4dip" />
+
+    </LinearLayout>
+
+    <include layout="@layout/mall_sep_h" />
+
+    <LinearLayout
+        android:id="@+id/productContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <include layout="@layout/mall_sep_h" />
+
+</LinearLayout>

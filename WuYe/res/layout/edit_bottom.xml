@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:layout_marginBottom="4dip"
+        android:background="@color/line_background" />
+
+    <ImageView
+        android:id="@+id/emotion_imageview"
+        android:layout_width="35dip"
+        android:layout_height="35dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/emotion_icon_background"
+        android:contentDescription="@string/app_name"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@id/ok_btn"
+        style="@style/button_color_font"
+        android:layout_width="wrap_content"
+        android:layout_height="35dip"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/view"
+        android:layout_centerInParent="true"
+        android:padding="0dip"
+        android:layout_marginRight="@dimen/activity_margin"
+        android:background="@drawable/btn_background_select"
+        android:contentDescription="@string/app_name"
+        android:text="@string/text_send" />
+
+    <EditText
+        android:id="@+id/reply_content"
+        style="@style/edittext_color_font"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="点击输入内容"
+        android:minHeight="35dip"
+        android:layout_below="@id/view"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:layout_marginRight="@dimen/activity_margin"
+        android:layout_toLeftOf="@id/ok_btn"
+        android:inputType="text" />
+
+</RelativeLayout>

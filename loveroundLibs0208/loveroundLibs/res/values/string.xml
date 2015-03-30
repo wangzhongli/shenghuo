@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+ 
+    <string name="app_name">畅享生活</string>
+    <!-- <string name="app_name">学护100</string> --><!--珠海云讯app  -->
+ 
+    <!-- <string name="app_name">贴心宝</string> -->
+    <!-- 学护100 -->
+    <!-- 富士康： 贴心宝 -->
+    <string name="set_family_name">设置亲情号</string>
+    <string name="tv_setting">设置</string>
+    <string name="tv_location">位置</string>
+    <string name="tv_state">状态</string>
+    <string name="tv_data">资料</string>
+    <string name="title_hint">提示</string>
+    <string name="has_no_child">请先添加对象，再使用其他功能！</string>
+    <string name="title_warning">温馨提示</string>
+    <string name="watch_taken_off">温馨提示，%s的手表已经脱落！</string>
+    <string name="out_of_areas">对象%s已超出安全区域，请注意！</string>
+    <string name="btn_ok">确定</string>
+    <string name="btn_can">取消</string>
+    <string name="add_child_frist">请先添加对象，再使用该功能。</string>
+    <string name="edit_child">编辑对象</string>
+    <string name="add_new_child">添加对象</string>
+    <string name="no_net_no_load">无网络,无法登录。</string>
+    <string name="reset_factroy">的手表恢复出厂设置,所有和手表关联的信息将被清空,您确定要这样做？</string>
+    <string name="reset_factroy_title">手表恢复出厂设置</string>
+    <string name="name_not_null">请输入用户名。</string>
+    <string name="name_not_content">用户名中不能含有@特殊字符！</string>
+    <string name="height_not_null">请输入身高。</string>
+    <string name="weight_not_null">请输入体重。</string>
+    <string name="sim_not_null">请输入电话。</string>
+    <string name="imei_not_null">请输入IMEI号。</string>
+    <string name="imei_length_fifteen">请输入15位IMEI号。</string>
+    <string name="ota_updata">手表蓝牙系统升级</string>
+    <string name="password_not_null">请输入密码。</string>
+    <string name="password_confrim_not_null">请输入确认密码。</string>
+    <string name="password_not_equals_confrim">两次密码不一致，请重新输入！</string>
+    <string name="dialog_set_time">手表时间校准</string>
+    <string name="email_not_null">请输入电子邮箱地址。</string>
+    <string name="sign_success">恭喜您，注册成功！</string>
+    <string name="net_request_err">网络连接失败，请检查网络！</string>
+    <string name="net_overdute">登录已过期，请重新登录！</string>
+    <string name="net_server_err">网络连接失败,请稍后再试！</string>
+    <string name="remember_name">记住帐号</string>
+    <string name="text_jing_yin_adds">按加号添加第一条静音时段</string>
+    <string name="load">登录</string>
+    <string name="net_upload_fail">图片上传失败</string>
+    <string name="load_success_load_all_tarcker">登录成功.\r\n正在加载&#8230;</string>
+    <string name="current_imei_repeated">此IMEI号已被使用，请输入正确的IMEI号！</string>
+    <string name="text_watch_reset_factory_jing_gao">警告</string>
+    <string name="last_address">最后位置:</string>
+    <string name="has_no_upload_positions">暂无位置数据</string>
+    <string name="dialog_message_loading">登录中&#8230;</string>
+    <string name="dialog_message_signing">正在注册&#8230;</string>
+    <string name="dialog_message_save_data">正在保存数据&#8230;</string>
+    <string name="dialog_confirm_exit_edit">是否放弃修改？</string>
+    <string name="dialog_confirm_exit_add">是否放弃添加对象？</string>
+    <string name="dialog_confirm_delete_child">是否确定删除对象%s？</string>
+    <string name="btn_start_use">马上进入</string>
+    <string name="hint_input_name">请输入账号</string>
+    <string name="image_content_description">图片</string>
+    <string name="state_power_low">手表电量不足</string>
+    <string name="state_power_low_more">手表电量偏低</string>
+    <string name="state_power_normal">手表电量正常</string>
+    <string name="state_power_high">手表电量正常</string>
+    <string name="state_location_open">位置定时更新开启</string>
+    <string name="state_location_close">位置定时更新关闭</string>
+    <string name="state_send_sim_start_request_net">发送位置开启短信</string>
+    <string name="state_send_sim_close_request_net">发送位置关闭短信</string>
+    <string name="state_imei_state_change">当前对象功能状态已更新。</string>
+    <string name="state_location_message_success">位置跟随设置短信发送成功</string>
+    <string name="state_location_message_err">位置跟随设置短信发送失败</string>
+    <string name="state_sett_message_err">设置失败</string>
+    <string name="add_family_num">设置亲情号码</string>
+    <string name="notify_tickertext">您收到一条回复！</string>
+    <string name="notify_contentTitle">设置当前位置。</string>
+    <string name="notify_contentText">您收到了一条位置信息，请查看！</string>
+    <string name="modify_or_not">确定更改？</string>
+    <string name="tracking_msg_send_success">位置追踪短信发送成功</string>
+    <string name="tracking_msg_send_fail">位置追踪短信发送失败</string>
+    <string name="open_location_tracking">开启位置追踪</string>
+    <string name="set_msg_send_failure">设置失败</string>
+    <string name="set_msg_send_success">设置短信已送达</string>
+    <string name="input_num">请输入号码</string>
+    <string name="input_sim_num">此处填写手表的手机号码</string>
+    <string name="input_family_number">请输入亲情号码</string>
+    <string name="getting_current_location">正在获取当前位置&#8230;</string>
+    <string name="get_current_location">获取当前位置</string>
+    <string name="check_all_objects_location">查看所有对象的位置</string>
+    <string name="check_net">网络连接失败，请检查网络！</string>
+    <string name="account_cannot_null">请输入账号</string>
+    <string name="no_net">网络连接失败，请检查网络！</string>
+    <string name="password_cannot_empty">请输入密码</string>
+    <string name="login_success">恭喜您，登录成功！</string>
+    <string name="request_error">请求错误，数据为空！</string>
+    <string name="open_file">打开文件</string>
+    <string name="_skip">跳 过</string>
+    <string name="create_object">添加对象</string>
+    <string name="_save">保存</string>
+    <string name="_name">名字</string>
+    <string name="person_data">个人资料</string>
+    <string name="gender_colon">性 别:</string>
+    <string name="_birthday">生 日</string>
+    <string name="_height">身高:</string>
+    <string name="_weight">体重:</string>
+    <string name="height_unit">身高（cm）:</string>
+    <string name="weight_unit">体重（kg）:</string>
+    <string name="hint_height">身高</string>
+    <string name="hint_weight">体重</string>
+    <string name="associate_watch">手表关联信息</string>
+    <string name="_number">手表号码:</string>
+    <string name="_my_number">本机号码:</string>
+    <string name="input_imei_num">手表的IMEI号码</string>
+    <string name="_num1">号码1:</string>
+    <string name="_num2">号码2:</string>
+    <string name="_num3">号码3:</string>
+    <string name="add_local_phone_number">添加本机号码</string>
+    <string name="check_object">查看对象</string>
+    <string name="_back">返回</string>
+    <string name="logging_in">正在登录&#8230;</string>
+    <string name="confirmation_box">确认框</string>
+    <string name="_imei">IMEI:</string>
+    <string name="set_sim_num">设置sim号码</string>
+    <string name="no_set">未设定</string>
+    <string name="start_set">开始设定</string>
+    <string name="object_list">对象列表</string>
+    <string name="_add">添加</string>
+    <string name="location_through_base_station">查询历史位置</string>
+    <string name="all_objects_location">查看所有对象位置</string>
+    <string name="input_account">请输入用户名</string>
+    <string name="log_in">登录</string>
+    <string name="check_data">查看资料</string>
+    <string name="_edit">编辑</string>
+    <string name="_edit_obj">编辑对象</string>
+    <string name="_delete">删除对象</string>
+    <string name="_register">注 册</string>
+    <string name="select_local_image">选择本地图片</string>
+    <string name="take_photo">使用照相机拍照</string>
+    <string name="setting_object">对象管理</string>
+    <string name="setting_change_password">修改密码</string>
+    <string name="setting_area">区域设置</string>
+    <string name="setting_blue">蓝牙</string>
+    <string name="setting_about_me">其他</string>
+    <string name="exit">退 出</string>
+    <string name="set_area">设置区域</string>
+    <string name="set">设定</string>
+    <string name="set_safety_area">电子栅栏设置</string>
+    <string name="safety_area">电子栅栏</string>
+    <string name="set_no_safety_area">电子栅栏未设定！</string>
+    <string name="set_again">重新设定</string>
+    <string name="map_draw_area">请在地图上划定一个区域</string>
+    <string name="set_area_first">请先设置区域范围</string>
+    <string name="nick_name">昵 称</string>
+    <string name="safety_area_error">区域错误，请重新划定！</string>
+    <string name="setting_message_fam">正在发送设置短信</string>
+    <string name="setting_message">正在发送设置指令</string>
+    <string name="re_call_phone_null">本机号码为空，请在编辑对象中添加本机号码！</string>
+    <string name="fam_msg_send_success">亲情号码设置成功</string>
+    <string name="fam_msg_send_fail">亲情号码设置失败</string>
+    <string name="area_set_err">区域无效，请重新设置</string>
+    <string name="hit_password">请输入密码</string>
+    <string name="_password">密码</string>
+    <string name="confirmation_password">确认密码</string>
+    <string name="hit_confirmation_password">请再次输入密码</string>
+    <string name="user_name">用户名</string>
+    <string name="_email">邮 箱</string>
+    <string name="hit_email">用于找回密码</string>
+    <string name="phone_number">电 话</string>
+    <string name="user_register">用户注册</string>
+    <string name="find_password">忘记密码</string>
+    <string name="sign_in">注册账号</string>
+    <string name="area_have_set">电子栅栏已设定</string>
+    <string name="no_net_no_register">无网络,无法注册</string>
+    <string name="again_click_exit">再按一次退出应用</string>
+    <string name="select_location_icon">选择定位图标</string>
+    <string name="user_agreement">用户协议</string>
+    <string name="check_update">检查更新</string>
+    <string name="birthday_colon">生日:</string>
+    <string name="watch_send_sim_start_request_net">正在发送表带检测开启短信</string>
+    <string name="watch_send_sim_close_request_net">正在发送表带检测关闭短信</string>
+    <string name="hit_send_sim_start_request_net">正在发送碰撞检测开启短信</string>
+    <string name="hit_send_sim_close_request_net">正在发送碰撞检测关闭短信</string>
+    <string name="step_send_sim_start_request_net">正在发送计步开启短信</string>
+    <string name="step_send_sim_close_request_net">正在发送计步关闭短信</string>
+    <string name="get_current_location_sms">正在发送获取当前位置短信</string>
+    <string name="dialog_message_del">正在删除&#8230;</string>
+    <string name="state_open">已开启</string>
+    <string name="state_close">已关闭</string>
+    <string name="current_version">当前版本:</string>
+    <string name="set_zdjt">回拨监听</string>
+    <string name="set_send_zdjt">正在发送回拨监听短信</string>
+    <string name="no_function">Demo版本未开放此功能！</string>
+    <string name="stop_blu_service">当前已有小孩连接上蓝牙，是否强行停止！</string>
+    <string name="stop_current_blu_service">是否关闭亲子跟随功能！</string>
+    <string name="not_run_blu">您的手机不支持蓝牙4.0！</string>
+    <string name="blu_connect_suess">连接成功！</string>
+    <string name="blu_dis_connect">断开连接！</string>
+    <string name="blu_connect_fail">连接超时！</string>
+    <string name="blu_connecting">正在连接&#8230;</string>
+    <string name="blu_notify_dis">温馨提示，蓝牙连接已断开</string>
+    <string name="hit_notify_level">温馨提示,%s发生了碰撞</string>
+    <string name="power_notify_power">温馨提示，%1$s的手表电量为%2$d</string>
+    <string name="default_address">无位置信息</string>
+    <string name="default_address_name">无位置信息</string>
+    <string name="current_steps">:%d 步</string>
+    <string name="mark_pic">没有定位图标可选，无法新增对象。</string>
+    <string name="dialog_confirm_send_mess">需要发送一条短信进行功能设置,是否确定发送？</string>
+    <string name="not_add_child">您添加的小孩过多，不能再添加小孩！</string>
+    <string name="del_family_num">清空所有亲情号码</string>
+    <string name="follow_time_setting">省电模式</string>
+    <string name="follow_time_text">设置手表每%d分钟上传一次位置数据。</string>
+    <string name="dialog_message_get_famliy">正在获取亲情号码信息&#8230;</string>
+    <string name="no_set_famliy">还没有设置亲情号码！</string>
+    <string name="minute_3">3</string>
+    <string name="minute_5">5</string>
+    <string name="minute_10">10</string>
+    <string name="minute_20">20</string>
+    <string name="minute_30">30</string>
+    <string name="updata_all_tracker">立即更新所有对象</string>
+    <string name="dialog_message_updata_all_tracker">正在更新所有对象坐标信息&#8230;</string>
+    <string name="acsp_user_agreement">我已阅读并同意</string>
+    <string name="acsp_user_agreement_2">用户协议</string>
+    <string name="send_time_set_message">正在发送时间设置短信</string>
+    <string name="input_aut_num">验证码</string>
+    <string name="send_aut">获取验证码</string>
+    <string name="auth_not_null">请输入验证码。</string>
+    <string name="local_num_not_null">请输入本机号码</string>
+    <string name="send_auth_message">正在发送获取验证码短信</string>
+    <string name="last_data">前</string>
+    <string name="next_data">后</string>
+    <string name="dialog_message_all_location">正在从服务器获取所有对象的位置数据，请稍候&#8230;</string>
+    <string name="dialog_message_history_location">正在从服务器获取\r\n当前对象历史位置，\r\n 请稍候&#8230;</string>
+    <string name="message_no_history">没有历史数据</string>
+    <string name="btn_upgrade">升级提示</string>
+    <string name="btn_cancel">取消</string>
+    <string name="head_version">当前已是最高版本%s，不需要升级！</string>
+    <string name="no_location_his">您的小孩还没有上传位置点！</string>
+    <string name="power_show">电量：%d</string>
+    <string name="message_get_location">正在定位</string>
+    <string name="set_msg_send_success_message">短信发送成功</string>
+    <string name="boy_text">男</string>
+    <string name="girl_text">女</string>
+    <string name="num_one">1</string>
+    <string name="num_two">2</string>
+    <string name="num_three">3</string>
+    <string name="num_four">4</string>
+    <string name="num_five">5</string>
+    <string name="num_six">6</string>
+    <string name="num_seven">7</string>
+    <string name="num_eight">8</string>
+    <string name="add_more">添加更多</string>
+    <string name="sild_set">对象设置</string>
+    <string name="sild_history_location">历史位置</string>
+    <string name="sild_all_location">所有对象位置</string>
+    <string name="sild_time_set">省电模式</string>
+    <string name="sild_hit_set">碰撞检测等级</string>
+    <string name="sild_area">电子栅栏</string>
+    <string name="sild_night_trouble">静音时段</string>
+    <string name="sild_set_famliy">亲情号码</string>
+    <string name="sild_about">关于</string>
+    <string name="current_all_walk_steps">%d 步</string>
+    <string name="baifenhao">%</string>
+    <string name="confirmation_time_picker">时间设置</string>
+    <string name="dialog_message_get_quite_time">正在获取静音时段信息&#8230;</string>
+    <string name="message_no_quite_time">请设置静音时段!</string>
+    <string name="message_set_quite_time">静音时段</string>
+    <string name="message_can_quite_time">删除</string>
+    <string name="message_can_quite_time_finish">完成</string>
+    <string name="current_version_code">当前版本号:</string>
+    <string name="guanfangwangzhan">官方网站</string>
+    <string name="notice_set_family_text">1&#8211;3为主亲情号码,4&#8211;8为副亲情号码.</string>
+    <string name="mms_data">监护记录</string>
+    <string name="hit_level_1">轻量</string>
+    <string name="hit_level_2">一般</string>
+    <string name="hit_level_3">严重</string>
+    <string name="hit_level_4">重量</string>
+    <string name="hit_current_level">设置手表的碰撞检测等级为：%d级。</string>
+    <string name="hit_level_setting">碰撞等级设置</string>
+    <string name="password_length_err">密码的长度请设置为6到16位之间</string>
+    <string name="email_err">电子邮箱的格式不对</string>
+    <string name="user_help">使用帮助</string>
+    <string name="sex_text">性别:</string>
+    <string name="no_dirs">当前已是根目录，没有后续文件夹！</string>
+    <string name="dir_back"> 返回上一级目录 </string>
+    <string name="no_set_quite_time">还没有设置静音时段！</string>
+    <string name="dialog_confirm_set_family_frist">添加对象成功！\r\n\r\n您可以先设置对象的亲情号码。</string>
+    <string name="dialog_confirm_send_mess_hbjt">需要发送一条短信请求手表回拨电话，是否确定？</string>
+    <string name="dialog_confirm_send_mess_get_location">需要发送一条短信%s手表的连续定位功能，是否确定？</string>
+    <string name="dialog_confirm_send_mess_watch">需要发送一条短信%s表带脱落检测功能，是否确定？</string>
+    <string name="dialog_confirm_send_mess_hit">需要发送一条短信%s手表的碰撞检测功能，是否确定？</string>
+    <string name="dialog_confirm_send_mess_location">需要发送一条短信获取对象%s的位置，是否确定？</string>
+    <string name="dialog_confirm_send_mess_open">开启</string>
+    <string name="dialog_confirm_send_mess_close">关闭</string>
+    <string name="toast_love_area">电子栅栏功能%s</string>
+    <string name="title_location">连续定位</string>
+    <string name="title_hit">碰撞检测</string>
+    <string name="title_watch">表带脱落检测</string>
+    <string name="title_blue">亲子跟踪 </string>
+    <string name="title_set_family">设置亲情号码 </string>
+    <string name="dialog_confirm_send_mess_set">是否确定？</string>
+    <string name="dialog_confirm_send_mess_set_hit">需要发送一条短信对手表进行设置，是否确定？\r\n\r\n*设置该项会导致亲子跟随断开。</string>
+    <string name="dialog_confirm_send_mess_clear_family">需要发送一条短信清除手表中的所有亲情号码，是否确定？</string>
+    <string name="dialog_confirm_send_mess_clear_family_or">清除手表中的所有亲情号码，是否确定？</string>
+    <string name="title_set_quite_times">设置静音时段</string>
+    <string name="location_time_out">定位超时</string>
+    <string name="location_time_ok">定位成功</string>
+    <string name="quite_time_invalid">无效</string>
+    <string name="quite_time_open">开启</string>
+    <string name="quite_time_close">关闭</string>
+    <string name="quite_time_set_times">将设置以下时段：</string>
+    <string name="quite_time_set_times_max">"设置的静音时段过多！"</string>
+    <string name="quite_time_1">时段1：</string>
+    <string name="quite_time_2">时段2：</string>
+    <string name="quite_time_3">时段3：</string>
+    <string name="quite_time_4">时段4：</string>
+    <string name="quite_time_hit">手表在以上时段内将保持静音。</string>
+    <string name="dialog_confirm_send_mess_clear_quite_times">需要发送一条短信清除手表中的所有静音时段，是否确定？</string>
+    <string name="dialog_confirm_send_mess_clear_quite_times_socket">清除手表中的所有静音时段，是否确定？</string>
+    <string name="dialog_confirm_send_mess_clear_quite_times_or">清除手表中的所有静音时段，是否确定？</string>
+    <string name="text_ok">确定</string>
+    <string name="dialog_confirm_send_mess_yzm">需要发送一条短信请求手表显示验证码，是否确定？</string>
+    <string name="title_delet_object">删除</string>
+    <string name="title_object_data">%s的资料 </string>
+    <string name="mms_ktszhm1">设亲情号码</string>
+    <string name="mms_ktqxhm_1">取消亲情号码</string>
+    <string name="mms_ktcxhm">查询亲情号码</string>
+    <string name="mms_ktyzm">查询验证码</string>
+    <string name="mms_ktwzgzkq">开启位置跟踪功能</string>
+    <string name="mms_ktwzgzgb">关闭位置跟踪功能</string>
+    <string name="mms_ktwzgzjg">修改位置跟踪的时间间隔</string>
+    <string name="mms_ktjbkq">计步器状态</string>
+    <string name="mms_ktjbgb">关闭计步器功能</string>
+    <string name="mms_ktbdjckq">开启表带检测功能</string>
+    <string name="mms_ktbdjcgb">关闭表带检测功能</string>
+    <string name="mms_ktpzjckq">开启碰撞检测功能</string>
+    <string name="mms_ktpzjcgb">关闭碰撞检测功能</string>
+    <string name="mms_ktbdjcdj">修改碰撞检测等级</string>
+    <string name="mms_ktcxwz">查询当前位置</string>
+    <string name="mms_ktdhjt">开启电话回拨监听</string>
+    <string name="mms_ktjysdkq">静音时段</string>
+    <string name="mms_ktjysdgb">取消所有静音时段</string>
+    <string name="mms_ktcximei">查询imei号</string>
+    <string name="mms_ktcxxx">查询信息</string>
+    <string name="mms_ktcjhm">设置超级号码</string>
+    <string name="mms_ktreset">恢复出厂设置并重启</string>
+    <string name="mms_hmSetfamilynumberok">设置亲情号码成功</string>
+    <string name="mms_kthm1">罗列亲情号码</string>
+    <string name="mms_ktThewatchdisconnec">手表脱落警告</string>
+    <string name="mms_ktThe_watch_disconnec">报告碰撞警告</string>
+    <string name="mms_ktwz_0">报告当前位置</string>
+    <string name="mms_ktimei">报告imei</string>
+    <string name="mms_ktzt">状态报告</string>
+    <string name="mms_ktIMEIerror">通用错误：IMEI不匹配</string>
+    <string name="mms_ktSetsuccessfully">通用信息：设置成功</string>
+    <string name="mms_ktSetfail">通用信息：设置失败</string>
+    <string name="mms_ktwzgz_huifu">位置跟踪</string>
+    <string name="mms_ktjysd_kq_huifu">静音时段开启</string>
+    <string name="mms_ktjysd_gb_huifu">静音时段关闭</string>
+    <string name="mms_ktcxwz_huifu">查询位置</string>
+    <string name="mms_ktbdjc_kq_huifu">表带检测开启</string>
+    <string name="mms_ktbdjc_gb_huifu">表带检测关闭</string>
+    <string name="mms_ktpzjc_gb_huifu">碰撞检测关闭</string>
+    <string name="mms_ktpzjc_kq_huifu">碰撞检测开启</string>
+    <string name="mms_ktdhjt_huifu">电话监听</string>
+    <string name="mms_key_ktSetSuccese">设置亲情号码成功</string>
+    <string name="mms_key_ktWatchFall">手表脱落</string>
+    <string name="mms_key_ktWatchHit">发生碰撞</string>
+    <string name="mms_key_ktError">错误</string>
+    <string name="mms_key_ktSuccese">设置成功</string>
+    <string name="mms_key_ktFail">设置失败</string>
+    <string name="text_wait_loading">加载中...</string>
+    <string name="message_exit">是否真的退出? </string>
+    <string name="cmd_not_line_respone">您的  %s 小孩不在线,设置失败！</string>
+    <string name="set_err">设置错误：%s</string>
+    <string name="cmd_respone_success">设置成功！</string>
+    <string name="famliy_update_success">亲情号码有更新哦！</string>
+    <string name="quite_time_update_success">静音时段有更新哦！</string>
+    <string name="set_over_time">设置超时，请重新设置！</string>
+    <string name="cmd_respone_success_send">发送成功！</string>
+    <string name="cmd_not_line_recall">您的  %s 小孩不在线, 回拨监听失败！</string>
+    <string name="cmd_not_line_respone_fail">您的  %1$s 小孩不在线, %2$s设置失败！</string>
+    <string name="title_kq_wzgz">开启位置跟踪</string>
+    <string name="title_gb_wzgz">关闭位置跟踪</string>
+    <string name="title_kq_pzjc">开启碰撞检测</string>
+    <string name="title_gb_pzjc">关闭碰撞检测</string>
+    <string name="title_kq_bdjc">开启表带检测</string>
+    <string name="title_gb_bdjc">关闭表带检测</string>
+    <string name="contact_us">联系我们</string>
+    <string name="ble_not_supported">Bluetooth Low Energy not supported</string>
+    <string name="text_contact_guan_fang_tel">官方电话:4008861102</string>
+    <string name="text_contact_xin_wei_bo">新浪微博:@阿巴町</string>
+    <string name="text_contact_guan_wei_xin">官方微信:abardeen5</string>
+    <string name="booth_not_trun_on">蓝牙没有打开</string>
+    <string name="text_contact_guan_wang_zhan">官方网站: www.abardeen.com</string>
+    <string name="scan_text">二维码扫描</string>
+    <string name="press_and_talk">按住 说话</string>
+    <string name="enviroment_listen">环境监听</string>
+    <string name="figer_up_cancel_send">手指上划 取消发送</string>
+    <string name="record_stoptalk">松开  结束</string>
+    <string name="text_cancel_sending_record">松开手指 取消发送</string>
+    <string name="text_notice_sending_record">手指上划 取消发送</string>
+    <string name="recorde_file_not_exit">当前音频文件不存在</string>
+    <string name="record_talk">按住  说话</string>
+    <string name="recorde_finish">录音完成</string>
+    <string name="not_on_line">你要发送的小孩对象不在线，发送失败</string>
+    <string name="not_on_line_voice">你要发送的小孩对象不在线，已存服务器！</string>
+    <string name="set_quite_time_dialog_text">结果未保存,确认退出?</string>
+    <string name="text_notice">提醒</string>
+    <string name="set_quite_time_error">你还没有设置静音时段!</string>
+    <string name="text_back">返回</string>
+    <string name="text_er_wei_ma_scan">二维码扫描</string>
+    <string name="text_hour">时</string>
+    <string name="text_minute">分</string>
+    <string name="text_get_system_time">获取系统时间</string>
+    <string name="text_guan_fang_we_chat_er_w_m">官方微信二维码</string>
+    <string name="text_search_we_chat_notice">扫一扫 更多惊喜等你拿</string>
+    <string name="text_my_photo">头像</string>
+    <string name="text_jian_hu_ren">监护人</string>
+    <string name="text_sport_title">运动量</string>
+    <string name="text_dan_wei_of_y">单位(步)</string>
+    <string name="text_dan_wei_ka">单位(卡)</string>
+    <string name="text_sport_of_day">按一天计算</string>
+    <string name="text_sport_of_week">按一周计算</string>
+    <string name="text_watch_system_update">手表系统升级</string>
+    <string name="text_update_info">升级信息</string>
+    <string name="text_begin_update">开始升级</string>
+    <string name="text_father">爸爸</string>
+    <string name="text_mother">妈妈</string>
+    <string name="text_yeye">爷爷</string>
+    <string name="text_nainai">奶奶</string>
+    <string name="text_shushu">叔叔</string>
+    <string name="text_ayi">阿姨</string>
+    <string name="text_waigong">外公</string>
+    <string name="text_waipo">外婆</string>
+    <string name="text_other">其他</string>
+    <string name="text_auto_get_local_sim">自动获取</string>
+    <string name="input_my_sim_num">此处填写本机号码</string>
+    <string name="text_child_data_my_photo">我的头像:</string>
+    <string name="text_child_data_my_father">爸爸</string>
+    <string name="text_bron_wo_shi_haizi_de">我是孩子的:</string>
+    <string name="text_del_recorde">删除此条记录?</string>
+    <string name="text_my_relation_name">我是孩子的:</string>
+    <string name="text_my_photo_of_relation">我的头像:</string>
+    <string name="text_play">播放</string>
+    <string name="text_re_send">重新发送</string>
+    <string name="text_mul_del">多条删除</string>
+    <string name="confirmation_ble_updata">手表版本升级</string>
+    <string name="confirmation_ble_cancle">取消所有升级</string>
+    <string name="updata_message_ble">您的蓝牙有新版本了，请即时更新哦！</string>
+    <string name="updata_message_firmware">您的系统有新版本了，请即时到销售商处升级哦！</string>
+    <string name="updata_message_version">升级文件版本：%s</string>
+    <string name="updata_message_size">升级文件大小：%s</string>
+    <string name="not_find_updata_file">升级文件未找到</string>
+    <string name="wait_updata">等待升级</string>
+    <string name="ble_is_new">您的手表蓝牙已是最新版本了，不需要升级！</string>
+    <string name="ble_notsuport">您的手机不支持此功能！</string>
+    <string name="dialog_err_more_user_login">您的账号已在另一台手机登录，您被迫下线，是否重新登入！</string>
+    <string name="dialog_err_login">重新登入</string>
+    <string name="dialog_err_exit">退出账号</string>
+    <string name="dialog_err_title">下线通知</string>
+    <string name="power_saving_mode_update">省电模式有更新哦！</string>
+    <string name="interval">间隔设置</string>
+    <string name="interval_detail">定位时间间隔越短，电池耗电越快</string>
+    <string name="location_mode">定位方式</string>
+    <string name="accurate_model">精准模式</string>
+    <string name="accurate_model_detail">以GPS定位为主，辅以基站定位</string>
+    <string name="normal_model">正常模式</string>
+    <string name="normal_model_detail">GPS定位和基站定位双定位</string>
+    <string name="power_saving_mode">省电模式</string>
+    <string name="power_saving_mode_detail">仅基站定位，定位误差较大</string>
+    <string name="sleep_period">睡眠时段</string>
+    <string name="sleep_period_detail">开启后手表会在此时段内休眠</string>
+    <string name="confirm_set_time">给%1$s设置时间为： %2$s ？</string>
+    <string name="net_overdute_relaod">请求失败，请再试一次！</string>
+    <!-- 修改密码 -->
+    <string name="change_password">修改密码</string>
+    <string name="changing_password">正在修改密码</string>
+    <string name="current_account">当前账号</string>
+    <string name="old_password">当前密码</string>
+    <string name="new_password">新密码</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="hint_old_password">请输入原密码</string>
+    <string name="hint_new_password">请输入新密码</string>
+    <string name="hint_confirm_password">确认密码</string>
+    <string name="old_password_incorrect">原密码错误</string>
+    <string name="change_password_failed">修改密码失败</string>
+    <string name="password_is_same">新旧密码相同，请重新设置</string>
+    <string name="change_password_success">成功修改密码</string>
+
+    <!-- 我的消息 -->
+    <string name="setting_my_message">我的消息</string>
+    <string name="del_all_text_message">清空</string>
+    <string name="have_no_text_message">额 哦！ 江湖中竟没有一条消息</string>
+
+    <!--
+    <string-array name="array_state_title">
+        <item>手表电量</item>
+        <item>位置跟踪</item>
+        <item>亲子跟随</item>
+        <item>手表脱落报警</item>
+        <item>碰撞报警</item>
+        <item>电子栅栏</item>
+        <item>运动量检测</item>
+    </string-array>
+    -->
+    <string-array name="sprin_sex">
+        <item>女生</item>
+        <item>男生</item>
+    </string-array>
+    <string-array name="relations_array">
+        <item>爸爸</item>
+        <item>妈妈</item>
+        <item>爷爷</item>
+        <item>奶奶</item>
+        <item>叔叔</item>
+        <item>阿姨</item>
+        <item>外公</item>
+        <item>外婆</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="quite_time">
+        <item>时段1：</item>
+        <item>时段2：</item>
+        <item>时段3：</item>
+        <item>时段4：</item>
+    </string-array>
+    
+    <string-array name="week_text">
+        <item >日</item>
+        <item >一</item>
+        <item >二</item>
+        <item >三</item>
+        <item >四</item>
+        <item >五</item>
+        <item >六</item>
+    </string-array>
+    
+    <string-array name="month_text">
+        <item >一月</item>
+        <item >二月</item>
+        <item >三月</item>
+        <item >四月</item>
+        <item >五月</item>
+        <item >六月</item>
+        <item >七月</item>
+        <item >八月</item>
+        <item >九月</item>
+        <item >十月</item>
+        <item >十一月</item>
+        <item >十二月</item>
+    </string-array>
+    
+
+
+    <string name="text_fang_diu_qi">防丢器</string>
+    <string name="text_bt_info">！注意: 距离的远近会因建筑物等周围环境的\n影响产生偏差</string>
+    <!-- <string name="toast_ble_watch_not_found">没有找到相应的手表</string> -->
+    <string name="text_not_find_tracker">没有找到相应的手表！</string>
+    <string name="text_set_time_err">设置错误：开始时间和结束时间不能一致，请重新设置！</string>
+    <string name="text_rsp_validation_code">验证码已发送到tracker,注意查收！</string>
+    <string name="text_query_location">当前正在定位，请稍后...</string>
+    <string name="notify_new_voice">您有新的语音消息!</string>
+    <string name="notify_new_voice_msg">点击查看!</string>
+    <string name="send_2d_code_dialog_info">发送验证码之前，请先确保您的手表退回到主界面,才能正常收到验证码！</string>
+    <string name="do_not_remaind">不再提醒</string>
+    <string name="find_pass">找回密码</string>
+    <string name="loading">正在加载数据</string>
+    <string name="reset_psw">修改密码将会发送修改命令到您注册账号时用到的邮箱，是要修改密码？</string>
+    <string name="sending_email">正在发送修改密码指令</string>
+    <string name="reset_password_later">请 1 分钟之后再试</string>
+    <string name="tracker_not_exist">会员不存在</string>
+    <string name="reset_psw_ok">系统已发送一封邮件到你注册时使用的邮箱，请打开邮箱重置密码</string>
+    <string name="clear_all_history_location">清空</string>
+    <string name="clear_all_his_loc_dialog">您将要清空当前对象的所有历史位置记录确定要这样做？</string>
+    <string name="not_on_line_fsk">不在线</string>
+    <!-- <string name="user_back_info">信息反馈</string> -->
+    <string name="input_suggestion">请输入您的建议</string>
+    <string name="info_title">问题描述</string>
+    <string name="_submit">提交</string>
+	<string name="input_contact_info">请输入您的联系方式</string>
+	<string name="sim_manager">SIM卡管理</string>
+	 <string-array name="relations_array_tailand">
+        <item>Father</item>
+        <item>Ancle</item>
+        <item>Grandad</item>
+        <item>Mom</item>
+        <item>Aunt</item>
+        <item>Grandma</item>
+        <item>Baby</item>
+        <item>Pet</item>
+        <item>Toy</item>
+    </string-array>
+
+</resources>

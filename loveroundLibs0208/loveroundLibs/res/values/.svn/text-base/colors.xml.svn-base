@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="c_bg">#b0000000</color>
+    <color name="textview_bg">#30000000</color>
+    <color name="textview_bg_default">#00000000</color>
+    <color name="tab_tv_bg">#3BAFDA</color>
+    <color name="tab_tv_bg_default">#4FC1E9</color>
+    <color name="confrim_dialog">#242424</color>
+    <color name="text_white">#ffffff</color>
+    <color name="text_gray">#708090</color>
+    <color name="text_black">#000</color>
+    <color name="setting_press">#80D6F2</color>
+    <color name="back">#000000</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="litelt_blue">#ACD6FF</color>
+
+    <!-- hdh -->
+    <color name="setting_item_text_color">#cfcfcf</color>
+    <color name="setting_item_text_shadow">#1d1812</color>
+    <color name="setting_item_divide_color">#1d1812</color>
+    <color name="setting_item_text_view">#333333</color>
+    <color name="about_us_text_press">#0089f4</color>
+    <!-- <color name="common_title_bg_colors">#13b5b1</color> --><!-- 正常标题栏底色-->
+    <color name="common_title_bg_colors">#000000</color><!--蒙古标题栏底色  -->
+    <!-- <color name="common_title_bg_colors_press">#0d716f</color> --><!-- 正常顶部返回按钮按下底色 -->
+    <color name="common_title_bg_colors_press">#CCCCCC</color><!--蒙古顶部返回按钮按下底色  -->
+    <color name="common_group_title_bg">#3fc68b</color>
+
+    <!-- qrcode -->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="color_transparent">@android:color/transparent</color>
+    <color name="edittext_color">#000000</color>
+    <color name="edittextcursor_color">#88888888</color>
+
+</resources>

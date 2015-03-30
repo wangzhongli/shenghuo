@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="mall_bg">#fff8f8f8</color>
+    <color name="mall_listitem_category_selected">#ff1c1d1c</color>
+    <color name="mall_product_card_title">#ff000000</color>
+    <color name="mall_product_card_introduce">#ffaaaaaa</color>
+    <color name="mall_product_card_tag_bg">#ff49aa48</color>
+    <color name="mall_product_card_tag">#ffffffff</color>
+    <color name="mall_product_card_price">#fff84803</color>
+    <color name="mall_order_card_state">#fff84803</color>
+    <color name="mall_listview_bg">#fff8f8f8</color>
+    
+    <color name="mall_listitem_category">#ffeeeeee</color>
+    <color name="mall_productdetail_cart_normal">#ffFE9100</color>
+    <color name="mall_productdetail_cart_pressed">#ffed7000</color>
+    <color name="mall_productdetail_buy_normal">#ffF84803</color>
+    <color name="mall_productdetail_buy_pressed">#ffe73700</color>
+
+</resources>

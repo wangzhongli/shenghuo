@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_usual_height"
+        android:background="@color/common_title_bg_colors"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/bas_title"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/lin_common_bg_selector"
+            android:drawableLeft="@drawable/top_back_btn1"
+            android:drawablePadding="@dimen/loging_margin_default"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/loging_margin_small"
+            android:paddingRight="@dimen/loging_margin"
+            android:text="@string/safety_area"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/title_text_size" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/safety_area"
+            android:textColor="@color/text_white"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:id="@+id/line_bas_draw"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/lin_common_bg_selector"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/set"
+                android:textColor="@color/text_white"
+                android:textSize="20sp" />
+
+            <!--
+                 <ImageView
+                android:id="@+id/iv_bas_draw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_bar_write"
+                android:visibility="gone" /> -->
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/bas_bmapsView"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:clickable="true" />
+
+        <RelativeLayout
+            android:id="@+id/bas_relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </RelativeLayout>
+        
+        <ImageView 
+            android:id="@+id/bas_location_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_margin="10dp"
+            android:background="@drawable/to_last_location"/>
+
+        <LinearLayout
+            android:id="@+id/line_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/ib_map_fangda_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/map_zoon_fangda_selector" />
+
+            <ImageButton
+                android:id="@+id/ib_map_suoxiao_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/map_zoon_suoxiao_selector" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/bas_lin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_usual_height"
+        android:background="@color/common_title_bg_colors"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</LinearLayout>

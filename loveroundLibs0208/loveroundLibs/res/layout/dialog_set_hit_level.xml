@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#e6e7e7"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/line_hit_setting"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="#e6e7e7"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/top_back_btn1" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_set_hit_act_save"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="#e6e7e7"
+            android:text="@string/_save"
+            android:textColor="#434343"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/btn_set_hit_act_save"
+            android:layout_toRightOf="@id/line_hit_setting"
+            android:gravity="center"
+            android:text="@string/sild_hit_set"
+            android:textColor="#434343"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@drawable/whit_line2" />
+
+        <com.cwtcn.kt.ui.TimeSeekBar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/bar"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_dialog_updata_min"
+                android:layout_width="35dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:text="@string/minute_3"
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/follow_dialog_time_text_size"
+                android:visibility="invisible" />
+
+            <SeekBar
+                android:id="@+id/seekBar_update_time"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:max="120"
+                android:maxHeight="10dp"
+                android:minHeight="10dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:progressDrawable="@drawable/sbcontrol_layor"
+                android:thumb="@drawable/sb_thumb_1" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="5dp"
+                android:background="#d80c18"
+                android:gravity="center_horizontal"
+                android:paddingTop="5dp"
+                android:text="@string/hit_level_1"
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/main_location_text_size" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="24dp"
+                android:background="#d80c18"
+                android:gravity="center_horizontal"
+                android:paddingTop="5dp"
+                android:text="@string/hit_level_2"
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/main_location_text_size" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="24dp"
+                android:background="#d80c18"
+                android:gravity="center_horizontal"
+                android:paddingTop="5dp"
+                android:text="@string/hit_level_3"
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/main_location_text_size" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="24dp"
+                android:background="#d80c18"
+                android:gravity="center_horizontal"
+                android:paddingTop="5dp"
+                android:text="@string/hit_level_4"
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/main_location_text_size" />
+        </com.cwtcn.kt.ui.TimeSeekBar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/warning_small" />
+
+            <TextView
+                android:id="@+id/tv_dialog_show_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/hit_current_level"
+                android:textColor="@color/text_black" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btn_dialog_sure"
+            android:layout_width="195dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_common_bg_selector_green"
+            android:text="@string/_save"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

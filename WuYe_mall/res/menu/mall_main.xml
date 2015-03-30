@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+xmlns:alpha="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/mall_action_search"
+        android:showAsAction="always"  
+        alpha:showAsAction="always"      
+        android:icon="@drawable/ic_action_search"
+        android:title="搜索"/>
+    <item
+        android:id="@+id/mall_action_cart"
+        android:showAsAction="always"  
+        alpha:showAsAction="always"      
+        android:icon="@drawable/mall_ic_action_cart"
+        android:title="购物车"/>
+
+</menu>

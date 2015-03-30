@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_children_group_list"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/common_title_bg_colors" >
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/lin_common_bg_selector"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/top_back_btn1" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:background="@color/common_title_bg_colors"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="孩子小伙伴群列表"
+            android:textColor="@color/text_white"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/line_children_group_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="! 注意: 最多能给一个孩子加或者创建3个群" />
+
+        <Button
+            android:id="@+id/btn_children_group_list_create_groupe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_red_bg_press_selector"
+            android:gravity="center"
+            android:text="创建群"
+            android:textColor="#fff"
+            android:textSize="26sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_children_group_list_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/line_children_group_list"
+        android:layout_below="@id/rl_children_group_list"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="还有没群信息~!"
+            android:textColor="#000"
+            android:textSize="36sp" />
+
+        <fragment
+            android:id="@+id/group_fragment_1"
+            android:name="com.cwtcn.kt.fragment.FragmentGroupInfo1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </fragment>
+
+        <fragment
+            android:id="@+id/group_fragment_2"
+            android:name="com.cwtcn.kt.fragment.FragmentGroupInfo2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp" >
+        </fragment>
+    </RelativeLayout>
+
+</RelativeLayout>

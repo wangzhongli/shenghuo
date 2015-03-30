@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </android.support.v4.view.ViewPager>
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/viewPager"
+        android:layout_centerHorizontal="true"
+        android:padding="8dip" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="150dip"
+        android:layout_height="@dimen/dimen_48"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="48dip"
+        android:background="@drawable/bbs_topic_num_icon"
+        android:onClick="startbutton"
+        android:text="@string/text_go_now"
+        android:textColor="#ffffffff"
+        android:textSize="@dimen/title_textSize" />
+
+    <Button
+        android:id="@+id/jump_btn"
+        android:layout_width="@dimen/dimen_60"
+        android:layout_height="@dimen/dimen_60"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/dimen_40"
+        android:layout_marginRight="@dimen/dimen_20"
+        android:background="@drawable/jump_down"
+        android:onClick="startbutton"
+        android:textColor="#ff000000"
+        android:textSize="16sp" />
+
+</RelativeLayout>

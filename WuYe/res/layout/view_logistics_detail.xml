@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+     <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_margin"
+        android:layout_marginLeft="30dip"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:gravity="left"
+            android:textColor="#ff333333"
+            android:text="阿梗"
+            android:textSize="@dimen/title_textSize" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="#ff888888"
+            android:textSize="@dimen/notes_textSize" />
+    </LinearLayout>
+
+   
+    <View 
+        android:id="@+id/dividerLine"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dip"
+        android:layout_below="@id/content"
+        android:layout_alignLeft="@id/content"
+        android:background="@color/line_background"
+        />
+
+    <LinearLayout
+        android:id="@+id/left"
+        android:layout_width="20dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@id/content"
+        android:layout_alignBottom="@id/content"
+        android:layout_marginRight="@dimen/activity_margin"
+        android:layout_toLeftOf="@id/content"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/viewOne"
+            android:layout_width="1dip"
+            android:layout_height="@dimen/activity_margin"
+            android:background="@color/line_background" />
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="15dip"
+            android:layout_height="15dip"
+            android:background="@drawable/order_state_now_icon"
+            android:contentDescription="@null"/>
+
+        <View
+            android:id="@+id/viewTwo"
+            android:layout_width="1dip"
+            android:layout_height="wrap_content"
+            android:background="@color/line_background" />
+    </LinearLayout>
+
+</RelativeLayout>

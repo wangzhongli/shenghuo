@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="48dp"
+    android:background="@drawable/search_bg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center_vertical" >
+
+    <EditText
+        android:id="@+id/search_editor"
+        android:layout_width="fill_parent"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/search_edittext_input"
+        android:ems="10"
+        android:hint="搜索小区"
+        android:imeOptions="actionSearch"
+        android:paddingLeft="36dp"
+        android:singleLine="true"
+        android:textColor="@color/starrredcontacts_search_text_color"
+        android:textColorHint="@color/starrredcontacts_search_textHint_color"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/img_delete_search_edit"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/search_delete_selectror"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btn_search_ic"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/ic_search" />
+</RelativeLayout>

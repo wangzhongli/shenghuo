@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_margin"
+    android:background="@drawable/listview_item_background" >
+
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/title"
+            style="@style/textview_color_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true" />
+        <TextView
+            android:id="@+id/time"
+            style="@style/notes_color_font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:ellipsize="end"
+            android:singleLine="true" />
+    </LinearLayout>
+
+   <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/state"
+            style="@style/textview_color_font"
+            android:textColor="#ffff6600"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"/>
+        <Button 
+            android:id="@+id/handlerBtn"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dip"
+            android:layout_height="30dip"
+            android:textSize="@dimen/title_textSize"
+            android:textColor="@color/notes_textColor"
+            android:visibility="gone"
+            android:background="@drawable/kangel_handler_btn_background"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

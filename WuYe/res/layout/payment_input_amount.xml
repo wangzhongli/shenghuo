@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/payment_amount_rel"
+    android:padding="@dimen/activity_margin" >
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/textview_color_font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="缴费金额:" />
+
+    <EditText
+        android:id="@+id/amount_input"
+        style="@style/textview_color_font"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:layout_toRightOf="@id/textView1"
+        android:hint="请输入您的缴费金额"
+        android:background="@android:color/transparent"
+        android:inputType="numberDecimal"
+        android:textColor="@color/title_textColor" />
+
+</RelativeLayout>

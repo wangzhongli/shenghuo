@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:layout_marginRight="@dimen/activity_margin"
+        android:layout_marginTop="@dimen/activity_margin"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/feedback"
+            style="@style/edittext_color_font"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="top|left"
+            android:background="@drawable/edittext_background"
+            android:hint="@string/hint_input_feedback"
+            android:inputType="textMultiLine" />
+		<EditText
+            android:id="@+id/mobile"
+            style="@style/edittext_color_font"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:gravity="center|left"
+            android:background="@drawable/edittext_background"
+            android:hint="@string/hint_phone"
+            android:enabled="false"
+            android:visibility="gone"
+            android:inputType="textMultiLine" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/activity_margin" >
+            <TextView
+                android:id="@+id/textView"
+                style="@style/textview_color_font"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentLeft="true"
+                android:text="@string/text_anonymous" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_margin"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:textOn=""
+                android:textOff=""
+                android:layout_centerVertical="true"
+                android:checked="false"
+                android:background="@drawable/toogle_switch_background"
+                android:layout_toRightOf="@id/textView" />
+        </RelativeLayout>
+        
+        <Button 
+            android:id="@id/ok_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_48"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:text="@string/text_ok"
+            style="@style/button_color_font"
+            android:background="@drawable/btn_background_select"
+            />
+    </LinearLayout>
+
+</LinearLayout>

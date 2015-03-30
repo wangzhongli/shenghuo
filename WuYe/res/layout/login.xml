@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="80dip"
+            android:paddingLeft="@dimen/activity_margin"
+            android:paddingRight="@dimen/activity_margin" >
+
+            <EditText
+                android:id="@id/input_userName"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_48"
+                android:layout_marginTop="@dimen/activity_margin"
+                android:drawableLeft="@drawable/login_icon"
+                android:drawablePadding="@dimen/activity_padding"
+                android:hint="@string/hint_userName"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@id/input_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_48"
+                android:layout_marginTop="@dimen/login_widget_padding"
+                android:drawableLeft="@drawable/password_icon"
+                android:drawablePadding="@dimen/activity_padding"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@id/login_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_48"
+                android:layout_marginTop="16dip"
+                style="@style/wuye_cm_button"
+                android:text="@string/text_login" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_margin"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@id/jump_register"
+                    style="@style/notes_color_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:padding="@dimen/activity_margin"
+                    android:text="@string/text_jump_register"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@id/forget_password"
+                    style="@style/notes_color_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:padding="@dimen/activity_margin"
+                    android:text="@string/text_forget_password"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

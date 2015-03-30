@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/line_goupe_title_info"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/common_title_bg_colors"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/group_title_xia_la" />
+
+        <TextView
+            android:id="@+id/goupe_title_info_group_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="群名称"
+            android:textColor="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="[10人]"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/include_goupe_title_info"
+        layout="@layout/list_group_member" />
+
+</LinearLayout>

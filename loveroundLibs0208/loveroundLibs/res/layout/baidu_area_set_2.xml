@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/title_btn_1_margin_right"
+    android:paddingRight="@dimen/title_btn_1_margin_right" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/bas_ok"
+            style="@style/btn_style_2"
+            android:layout_width="@dimen/bottom_bar_btn_width"
+            android:layout_height="@dimen/bottom_bar_btn_height"
+            android:layout_marginRight="42dp"
+            android:layout_weight="1.0"
+            android:background="#d80c18"
+            android:gravity="center"
+            android:text="@string/btn_ok"
+            android:textColor="#fff"
+            android:textSize="@dimen/title_text_size" />
+
+        <Button
+            android:id="@+id/bas_again"
+            style="@style/btn_style_2"
+            android:layout_width="@dimen/bottom_bar_btn_width"
+            android:layout_height="@dimen/bottom_bar_btn_height"
+            android:layout_weight="1.0"
+            android:background="#d80c18"
+            android:gravity="center"
+            android:text="@string/set_again"
+            android:textColor="#fff"
+            android:textSize="@dimen/title_text_size" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip" >
+
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textColor="#ff434343"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/hg_sl_menuitem_bg"
+            android:paddingLeft="4dip"
+            android:text="更多"
+            android:textColor="#ffaaaaaa"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <include layout="@layout/mall_sep_h" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.hg.android.widget.SquareFrameLayout
+            android:layout_width="0dip"
+            android:layout_height="0dip"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/imageView_0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY" />
+        </com.hg.android.widget.SquareFrameLayout>
+
+        <include layout="@layout/mall_sep_v" />
+
+        <com.hg.android.widget.SquareFrameLayout
+            android:layout_width="0dip"
+            android:layout_height="0dip"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imageView_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY" />
+
+                <include layout="@layout/mall_sep_h" />
+
+                <ImageView
+                    android:id="@+id/imageView_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+        </com.hg.android.widget.SquareFrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

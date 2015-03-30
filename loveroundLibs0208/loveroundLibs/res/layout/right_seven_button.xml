@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true" >
+
+    <RelativeLayout
+        android:id="@+id/line_map_seven_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false" >
+
+        <ImageButton
+            android:id="@+id/ib_map_location"
+            style="@style/map_right_icon_style"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/map_current_location_selector" />
+
+       <ImageButton
+            android:id="@+id/ib_map_recall"
+            style="@style/map_right_icon_style"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/map_recall_listion_selector" /> 
+
+        <ImageButton 
+            android:id="@+id/ib_map_history"
+            style="@style/map_right_icon_style"
+            android:layout_marginTop="170dp" />
+
+        <ImageButton
+            android:id="@+id/ib_map_love"
+            style="@style/map_right_icon_style"
+            android:layout_marginTop="220dp" />
+
+        <ImageButton
+            android:id="@+id/ib_map_fall"
+            style="@style/map_right_icon_style"
+            android:layout_marginTop="270dp" />
+
+        <ImageButton
+            android:id="@+id/ib_map_parent"
+            style="@style/map_right_icon_style"
+            android:layout_marginTop="320dp" />
+
+        <ImageButton
+            android:id="@+id/ib_map_hit_sos"
+            style="@style/map_right_icon_style"
+            android:layout_marginTop="370dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_map_icon_top_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/map_seven_icon_top_bg"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/rl_map_icon_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/map_seven_icon_top" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/line_map_seven_icon2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:focusableInTouchMode="false"
+        android:visibility="gone" >
+
+        <ImageButton
+            android:id="@+id/ib_map_location2"
+            style="@style/map_right_icon_style_gone"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/map_current_location_selector" />
+
+          <ImageButton
+            android:id="@+id/ib_map_recall2"
+            style="@style/map_right_icon_style_gone"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/map_recall_listion_selector" />  
+
+        <ImageButton
+            android:id="@+id/ib_map_history2"
+            style="@style/map_right_icon_style_gone"
+            android:layout_marginTop="170dp" />
+
+        <ImageButton
+            android:id="@+id/ib_map_love2"
+            style="@style/map_right_icon_style_gone"
+            android:layout_marginTop="220dp" />
+
+        <ImageButton
+            android:id="@+id/ib_map_fall2"
+            style="@style/map_right_icon_style_gone"
+            android:layout_marginTop="270dp" />
+
+        <ImageButton
+            android:id="@+id/ib_map_parent2"
+            style="@style/map_right_icon_style_gone"
+            android:layout_marginTop="320dp" />
+
+        <ImageButton
+            android:id="@+id/ib_map_hit_sos2"
+            style="@style/map_right_icon_style_gone"
+            android:layout_marginTop="370dp" />
+    </RelativeLayout>
+
+</FrameLayout>

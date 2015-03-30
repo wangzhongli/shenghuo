@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="wuye_bg">#fff8f8f8</color>
+    <color name="wuye_app_bg">#ffe6e7e7</color>
+    <color name="wuye_cm_list_sep">#ffe0e0e0</color>
+    <color name="dialog_background">#ffe7eaea</color>
+    <color name="btn_cancle_bg_color_pressed">#ff8a8a8a</color>
+    <color name="btn_bg_color_enalbed">#ffa0a0a0</color>
+    <color name="btn_cancle_bg_color">#ffa0a0a0</color>
+    <color name="select_pic_btn_normal">#ffffffff</color>
+    <color name="select_pic_btn_pressed">#ffd3d3d3</color>
+    <color name="bottomBar_background">#fff2f2f2</color>
+    <color name="btn_bg_color">#ff49aa48</color>
+    <color name="wuye_cm_button_normal">#ffd80c18</color>
+    <color name="wuye_cm_button_pressed">#ffec6100</color>
+    <color name="wuye_cm_button_disabled">#ffa0a0a0</color>
+
+</resources>

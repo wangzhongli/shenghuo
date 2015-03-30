@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8">
+
+    <LinearLayout
+        android:id="@+id/line_setting_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@drawable/common_title_bg" >
+
+        <TextView
+            android:id="@+id/sl_title"
+            style="@style/title_style"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/text_click"
+            android:drawableLeft="@drawable/action_back"
+            android:drawablePadding="@dimen/loging_margin_default"
+            android:paddingLeft="@dimen/loging_margin_small"
+            android:paddingRight="@dimen/loging_margin"
+            android:text="@string/tv_setting"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line_setting_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/btn_margin_bottom"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btn_setting_exit"
+            android:layout_width="@dimen/btn_1_width"
+            android:layout_height="@dimen/btn_1_height"
+            android:background="@drawable/common_btn_bg_selector"
+            android:text="@string/exit"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/line_setting_exit"
+        android:layout_below="@id/line_setting_title" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/relative_setting_object_manager"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_setting_height"
+                android:background="@drawable/item_setting_selector"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/text_setting_margin"
+                    android:text="@string/setting_object"
+                    android:textColor="@color/setting_text_selector"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/icon_setting_margin"
+                    android:background="@drawable/icon_arrow_right_selector" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/common_deviding_line" />
+
+            <RelativeLayout
+                android:id="@+id/relative_setting_bt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_setting_height"
+                android:background="@drawable/item_setting_selector"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/text_setting_margin"
+                    android:text="@string/setting_blue"
+                    android:textColor="@color/setting_text_selector"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/icon_setting_margin"
+                    android:background="@drawable/icon_arrow_right_selector" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/common_deviding_line"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/relative_setting_about"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_setting_height"
+                android:background="@drawable/item_setting_selector"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/text_setting_margin"
+                    android:text="@string/setting_about_me"
+                    android:textColor="@color/setting_text_selector"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/icon_setting_margin"
+                    android:background="@drawable/icon_arrow_right_selector" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/common_deviding_line" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

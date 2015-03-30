@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mall_bg"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include layout="@layout/mall_sep_h" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:minHeight="44dip"
+                android:padding="8dip"
+                android:text="收货信息"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <include layout="@layout/mall_sep_h" />
+
+            <include
+                android:id="@+id/listitem_address"
+                layout="@layout/wuye_cm_listitem_1" />
+
+            <include layout="@layout/mall_sep_h" />
+            
+            <View android:layout_height="16dip" android:layout_width="0dip"/>
+
+            <include layout="@layout/mall_sep_h" />
+            <LinearLayout
+                android:id="@+id/confirmGroupView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            </LinearLayout>
+            <include layout="@layout/mall_sep_h" />
+
+            <TextView
+                style="@style/mall_card_product_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dip"
+                android:text="温馨提示:请在半小时内完成支付,过时将取消订单" />
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/mall_sep_h" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="4dip"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:paddingTop="4dip" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView_amount"
+                style="@style/mall_card_product_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView_shippingCost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/button_submit"
+            style="@style/mall_bottom_bar_button"
+            android:background="@drawable/mall_sl_button_red"
+            android:text="提交订单"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

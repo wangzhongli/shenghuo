@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   <RelativeLayout
+       android:id="@+id/line_find_password_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/common_title_bg_colors"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/user_agreement_back"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/lin_common_bg_selector"
+                android:gravity="center" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/top_back_btn1" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/user_agreement"
+                android:textColor="@color/text_white"
+                android:textSize="24sp" />
+        </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/line_find_password_middle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/line_find_password_title" >
+
+        <WebView
+            android:id="@+id/user_agreenment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</RelativeLayout>

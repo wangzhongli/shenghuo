@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/title_bar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:orientation="vertical" >
+			
+            <Spinner
+               android:id="@+id/board_spinner"
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/dimen_48"
+               android:background="@drawable/spinner_hasb_background"
+               android:popupBackground="@color/background"
+               />
+            
+            <EditText
+                android:id="@id/item_title"
+                style="@style/edittext_color_font"
+                android:paddingLeft="@dimen/activity_margin"
+                android:paddingRight="@dimen/activity_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_margin"
+                android:background="@drawable/edittext_background"
+                android:gravity="left|center"
+                android:hint="@string/hint_input_topic_title" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_margin"
+                android:orientation="vertical" >
+
+                <EditText
+                	android:padding="@dimen/activity_margin"
+                    android:id="@id/item_content"
+                    style="@style/edittext_color_font"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/edittext_background"
+                    android:gravity="left|top"
+                    android:hint="@string/hint_input_topic_content" />
+                <!-- <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/emotion_normal_icon"
+                    android:contentDescription="@string/app_name" /> -->
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/select_pic_lin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_margin"
+                android:background="@drawable/comment_bg"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_margin" >
+
+                <com.hg.android.widget.MyGridView
+                    android:id="@id/gridview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cacheColorHint="#00000000"
+                    android:horizontalSpacing="@dimen/bottom_tab_padding_up"
+                    android:numColumns="4"
+                    android:scrollbars="none"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="@dimen/bottom_tab_padding_up" />
+            </LinearLayout>
+            <Button
+                android:id="@id/ok_btn"
+                style="@style/button_color_font"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_48"
+                android:layout_margin="@dimen/activity_margin"
+                android:background="@drawable/btn_background_select"
+                android:text="@string/text_save" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

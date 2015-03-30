@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mall_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/progressContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.hg.android.widget.ScaleFrameLayout
+                xmlns:custom="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                custom:heightScale="0.83" >
+
+                <com.hg.android.widget.ImagePagerLayout
+                    android:id="@+id/imagePagerLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white" />
+            </com.hg.android.widget.ScaleFrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingBottom="8dip"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/textView_title"
+                            style="@style/mall_card_product_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/textView_introduce"
+                            style="@style/mall_card_product_introduce"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dip"
+                            android:maxLines="2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="80dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dip"
+                        android:gravity="center"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/textView_tags"
+                            style="@style/mall_card_product_tag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxWidth="80dip" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginBottom="8dip"
+                    android:layout_marginTop="8dip"
+                    android:background="@color/lightgray" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/textView_priceBase"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:textColor="@color/mall_product_card_introduce"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textView_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:paddingLeft="8dip"
+                        android:textColor="@color/mall_product_card_price"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dip"
+                        android:background="@color/mall_product_card_price"
+                        android:paddingLeft="3dip"
+                        android:paddingRight="3dip"
+                        android:text="畅享价"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/textView_quantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:textColor="@color/mall_product_card_introduce"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textView_shippingCost"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:gravity="right"
+                        android:textColor="@color/mall_product_card_introduce"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/wuye_cm_list_sep" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="8dip"
+                android:background="@color/wuye_cm_list_sep" />
+
+            <include
+                android:id="@+id/listitem_review"
+                layout="@layout/wuye_cm_listitem_1" />
+
+            <View
+                android:id="@+id/view_sep_review"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/wuye_cm_list_sep"
+                android:visibility="gone" />
+
+            <FrameLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                >
+            <include
+                layout="@layout/mall_card_productreview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dip"
+                android:visibility="gone" />
+            </FrameLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/wuye_cm_list_sep" />
+
+            <include
+                android:id="@+id/listitem_webdetail"
+                layout="@layout/wuye_cm_listitem_1" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginBottom="8dip"
+                android:background="@color/wuye_cm_list_sep" />
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/wuye_cm_list_sep" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="4dip"
+        android:paddingLeft="8dip"
+        android:paddingRight="8dip"
+        android:paddingTop="4dip" >
+
+        <TextView
+            android:id="@+id/button_cart"
+            style="@style/mall_bottom_bar_button"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:background="@drawable/mall_sl_button_orange"
+            android:drawableLeft="@drawable/mall_ic_productdetail_cart"
+            android:text="加入购物车"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/button_buy"
+            style="@style/mall_bottom_bar_button"
+            android:layout_width="0dip"
+            android:layout_marginLeft="8dip"
+            android:layout_weight="1"
+            android:background="@drawable/mall_sl_button_red"
+            android:drawableLeft="@drawable/mall_ic_productdetail_buy"
+            android:text="立即购买"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

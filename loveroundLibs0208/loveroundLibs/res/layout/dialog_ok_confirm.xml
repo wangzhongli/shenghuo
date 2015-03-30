@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dialog_background"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dcon_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/loging_margin_default_larger"
+        android:text="@string/confirmation_box"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/text_black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/undline_height"
+        android:layout_marginLeft="@dimen/loging_margin_default_larger"
+        android:layout_marginRight="@dimen/loging_margin_default_larger"
+        android:background="#D8ffffff" />
+
+    <TextView
+        android:id="@+id/dcon_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/loging_margin"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/text_black"
+        android:textSize="18sp" />
+    
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/textview_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/loging_margin_default"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/dcon_ok"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/dialog_btn_selector"
+            android:paddingLeft="@dimen/loging_image_top"
+            android:paddingRight="@dimen/loging_image_top"
+            android:text="@string/btn_ok"
+            android:textColor="@color/text_black"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_1_bg"
+    android:orientation="vertical" >
+
+    <!-- android:background="@drawable/btn_click" -->
+
+    <TextView
+        android:id="@+id/sid_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/loging_margin"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="@string/select_local_image"
+        android:textColor="@color/text_black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/undline_height"
+        android:layout_marginLeft="@dimen/undline_height"
+        android:layout_marginRight="@dimen/undline_height"
+        android:background="@color/textview_bg" />
+
+    <TextView
+        android:id="@+id/sid_carmea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/loging_margin"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:text="@string/take_photo"
+        android:textColor="@color/text_black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/undline_height"
+        android:layout_marginLeft="@dimen/undline_height"
+        android:layout_marginRight="@dimen/undline_height"
+        android:background="@color/textview_bg" />
+
+</LinearLayout>

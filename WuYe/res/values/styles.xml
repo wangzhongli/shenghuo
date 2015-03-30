@@ -1,0 +1,65 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="numberPickerStyle">@style/NPWidget.Holo.NumberPicker</item>
+    </style>
+    <style name="main_tab_bottom">
+        <item name="android:textSize">@dimen/bottom_tab_font_size</item>
+        <item name="android:textColor">@drawable/main_tab_textcolor_selector</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@color/bottomBar_background</item>
+        <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="textview_color_font">
+        <item name="android:textSize">@dimen/title_textSize</item>
+        <item name="android:textColor">@color/title_textColor</item>
+    </style>
+
+    <style name="button_color_font">
+        <item name="android:padding">@dimen/activity_margin</item>
+        <item name="android:textSize">@dimen/title_textSize</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="edittext_color_font">
+        <item name="android:textSize">@dimen/title_textSize</item>
+        <item name="android:textColor">@color/title_textColor</item>
+    </style>
+    
+    <style name="notes_color_font">
+        <item name="android:textSize">@dimen/notes_textSize</item>
+        <item name="android:textColor">@color/notes_textColor</item>
+    </style>
+    <style name="body_color_font">
+       <item name="android:textSize">@dimen/body_textSize</item>
+        <item name="android:textColor">@color/body_textColor</item>
+    </style>
+    
+     <!-- 进度对话框样式 -->
+    <style name="custom_progress_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item> 
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">true</item> 
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+   <style name="pic_dialog_style" parent="android:Animation"> 
+        <item name="@android:windowEnterAnimation">@anim/pic_dialog_enter</item> 
+        <item name="@android:windowExitAnimation">@anim/pic_dialog_exit</item> 
+    </style> 
+      <style name="loading_small" parent="@android:style/Widget.ProgressBar.Small">
+		<item name="android:indeterminateDrawable">@anim/loading_small</item>
+		<item name="android:layout_width">21dip</item> 
+		<item name="android:layout_height">21dip</item>
+		<item name="android:layout_gravity">center_vertical</item>
+	</style>
+</resources>

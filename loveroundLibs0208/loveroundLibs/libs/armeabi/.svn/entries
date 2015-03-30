@@ -1,0 +1,54 @@
+8
+
+dir
+410
+https://china-b7f23d693/svn/KT01_APP/lovearoundBranchs/lovearound5_kt02/libs/armeabi
+https://china-b7f23d693/svn/KT01_APP
+
+
+
+2014-05-08T06:43:03.562500Z
+54
+pengtao
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e8499b2e-b36c-4b45-9a5f-c5bbf8fb2422
+
+libBaiduMapSDK_v2_4_1.so
+file
+
+
+
+
+2014-06-06T10:06:59.846233Z
+f7cf6bec2d9fed4f379603be82cfd84a
+2014-04-18T04:00:23.484375Z
+2
+pengtao
+has-props
+
+liblocSDK3.so
+file
+
+
+
+
+2014-06-06T10:06:59.851233Z
+2c9f139bf4d57b72f46e9e3009f4f582
+2014-05-08T06:43:03.562500Z
+54
+pengtao
+has-props
+

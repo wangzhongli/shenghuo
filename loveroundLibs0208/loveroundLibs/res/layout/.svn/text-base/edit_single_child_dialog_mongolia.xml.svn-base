@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/od_check"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/check_view"
+        android:drawablePadding="@dimen/loging_margin_default_larger"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="10dp"
+        android:text="@string/check_data"
+        android:textColor="@color/text_color_selector"
+        android:textSize="20sp" />
+    <!-- </LinearLayout> -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/undline_height"
+        android:layout_marginLeft="@dimen/loging_margin"
+        android:layout_marginRight="@dimen/loging_margin"
+        android:background="@drawable/textview_bg" />
+
+    <TextView
+        android:id="@+id/od_edit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/edit_view"
+        android:drawablePadding="@dimen/loging_margin_default_larger"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="10dp"
+        android:text="@string/_edit_obj"
+        android:textColor="@color/text_color_selector"
+        android:textSize="20sp" />
+    <!-- </LinearLayout> -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/undline_height"
+        android:layout_marginLeft="@dimen/loging_margin"
+        android:layout_marginRight="@dimen/loging_margin"
+        android:background="@drawable/textview_bg" />
+
+    <TextView
+        android:id="@+id/od_del"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/delete_info"
+        android:drawablePadding="@dimen/loging_margin_default_larger"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="10dp"
+        android:text="@string/_delete"
+        android:textColor="@color/text_color_selector"
+        android:textSize="20sp" />
+    <!-- </LinearLayout> -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/undline_height"
+        android:layout_marginLeft="@dimen/loging_margin"
+        android:layout_marginRight="@dimen/loging_margin"
+        android:background="@drawable/textview_bg" />
+
+    <TextView
+        android:id="@+id/od_obj_data"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/mms_data"
+        android:drawablePadding="@dimen/loging_margin_default_larger"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="10dp"
+        android:text="@string/mms_data"
+        android:textColor="@color/text_color_selector"
+        android:textSize="20sp"
+        android:visibility="gone"
+          />
+    <!-- </LinearLayout> -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/undline_height"
+        android:layout_marginLeft="@dimen/loging_margin"
+        android:layout_marginRight="@dimen/loging_margin"
+        android:background="@drawable/textview_bg"
+         android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/od_set_time"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_weight="1"
+       
+        android:drawableLeft="@drawable/ic_time_tracker_reset"
+        android:drawablePadding="@dimen/loging_margin_default_larger"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="10dp"
+        android:text="@string/dialog_set_time"
+        android:textColor="@color/text_color_selector"
+        android:textSize="20sp" />
+    <!-- </LinearLayout> -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/undline_height"
+         
+        android:layout_marginLeft="@dimen/loging_margin"
+        android:layout_marginRight="@dimen/loging_margin"
+        android:background="@drawable/textview_bg" />
+
+    <TextView
+        android:id="@+id/od_reset_factory"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/ic_reset_factory"
+        android:drawablePadding="@dimen/loging_margin_default_larger"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="10dp"
+        android:text="@string/reset_factroy_title"
+        android:textColor="@color/text_color_selector"
+        android:textSize="20sp" />
+    <!-- </LinearLayout> -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/undline_height"
+        android:layout_marginLeft="@dimen/loging_margin"
+        android:layout_marginRight="@dimen/loging_margin"
+        android:background="@drawable/textview_bg" />
+
+    <TextView
+        android:id="@+id/od_ota_updata"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/ic_updata_ota"
+        android:drawablePadding="@dimen/loging_margin_default_larger"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="10dp"
+        android:text="@string/ota_updata"
+        android:textColor="@color/text_color_selector"
+        android:textSize="20sp" 
+        android:visibility="visible"/>
+    <!-- </LinearLayout> -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/undline_height"
+        android:visibility="gone"
+        android:layout_marginLeft="@dimen/loging_margin"
+        android:layout_marginRight="@dimen/loging_margin"
+        android:background="@drawable/textview_bg" />
+
+</LinearLayout>

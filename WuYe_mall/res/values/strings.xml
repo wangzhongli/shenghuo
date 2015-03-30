@@ -1,0 +1,17 @@
+<resources>
+
+<string-array name="mall_cancel_reasons">
+    <item>我不想买了</item>
+    <item>信息填写错误,重新拍</item>
+    <item>卖家缺货</item>
+    <item>其他原因</item>
+</string-array>
+
+<string-array name="mall_refund_reasons">
+    <item>与商家协商一致</item>
+    <item>未按约定时间送货</item>
+    <item>虚假发货</item>
+    <item>其他原因</item>
+</string-array>
+
+</resources>

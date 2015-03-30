@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@color/dialog_background"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin" >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/textview_color_font"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/activity_margin"
+                android:text="@string/text_select_date" />
+
+            <DatePicker
+                android:id="@id/service_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/textview_color_font"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/activity_margin"
+                android:text="@string/text_select_time" />
+
+            <TimePicker
+                android:id="@id/service_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_margin"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@id/cancel_btn"
+                    style="@style/button_color_font"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/dimen_48"
+                    android:layout_marginRight="@dimen/activity_margin"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_cancle_background"
+                    android:text="@string/text_cancel" />
+
+                <Button
+                    android:id="@id/ok_btn"
+                    style="@style/button_color_font"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/dimen_48"
+                    android:layout_marginLeft="@dimen/activity_margin"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_background_select"
+                    android:text="@string/text_set" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

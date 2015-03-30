@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="85dp"
+    android:layout_height="85dp" >
+
+    <ImageView
+        android:id="@+id/iv_diao_photo_bg"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_red" />
+
+      <ImageView
+        android:id="@+id/iv_diao_photo_relation"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+         />  
+
+</FrameLayout>

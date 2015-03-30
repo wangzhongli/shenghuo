@@ -1,0 +1,78 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="mall_bottom_bar_button">
+        <item name="android:textSize">18sp</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingRight">8dip</item>
+        <item name="android:layout_height">40dip</item>
+        <item name="android:drawablePadding">0dip</item>
+    </style>
+
+    <style name="mall_card_bar_button">
+        <item name="android:textColor">@color/lightgray</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">76dip</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingRight">8dip</item>
+        <item name="android:layout_height">31dip</item>
+        <item name="android:drawablePadding">0dip</item>
+    </style>
+    
+   <style name="mall_listitem_title">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    
+    <style name="mall_card_title">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="mall_card_subtitle">
+        <item name="android:textColor">@color/lightgray</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:background">@null</item>
+    </style>
+    
+    <style name="mall_card_product_title">
+         <item name="android:textColor">@color/mall_product_card_title</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="mall_card_product_introduce">
+        <item name="android:textColor">@color/mall_product_card_introduce</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="mall_card_product_tag">
+        <item name="android:textColor">@color/mall_product_card_tag</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:background">@drawable/mall_tag</item>
+    </style>
+    <style name="mall_card_product_price">
+        <item name="android:textColor">@color/mall_product_card_price</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="mall_card_order_state">
+        <item name="android:textColor">@color/mall_product_card_price</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+</resources>

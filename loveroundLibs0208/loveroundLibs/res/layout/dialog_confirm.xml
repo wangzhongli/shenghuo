@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dialog_background"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dcon_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/loging_margin_default_larger"
+        android:paddingLeft="2dp"
+        android:text="@string/confirmation_box"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/text_black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/undline_height"
+        android:layout_marginLeft="@dimen/loging_margin_default_larger"
+        android:layout_marginRight="@dimen/loging_margin_default_larger"
+        android:background="#D8ffffff"
+        android:textColor="@color/text_black" />
+
+    <TextView
+        android:id="@+id/dcon_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/loging_margin"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/text_black"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/textview_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_btn_selector" >
+
+            <Button
+                android:id="@+id/dcon_ok"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/dialog_btn_selector"
+                android:text="@string/btn_ok"
+                android:textColor="@color/text_black"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/map_top_devider" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_btn_selector" >
+
+            <Button
+                android:id="@+id/dcon_can"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/dialog_btn_selector"
+                android:text="@string/btn_can"
+                android:textColor="@color/text_black"
+                android:textSize="17sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

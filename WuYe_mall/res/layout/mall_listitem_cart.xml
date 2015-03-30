@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:gravity="center_vertical"
+    android:minHeight="100dip"
+    android:orientation="horizontal"
+    android:padding="8dip"
+    android:paddingBottom="0dip" >
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="25dip"
+        android:padding="8dip"/>
+
+    <include layout="@layout/mall_card_product_cart" 
+        android:layout_width="match_parent"
+        android:layout_height="115dip"
+        android:gravity="center_vertical"
+        />
+
+</LinearLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/common_title_bg_colors"
+         >
+
+        <LinearLayout
+            android:id="@+id/line_follow_time_setting"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/lin_common_bg_selector"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/top_back_btn1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/follow_time_setting"
+            android:textColor="@color/text_white"
+            android:textSize="18sp" />
+   
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/lin_common_bg_selector"
+            android:gravity="center|right" >
+
+            <TextView
+                android:id="@+id/btn_dialog_sure"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center|right"
+                android:text="@string/_save"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+     
+          
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@drawable/whit_line2" />
+
+        <com.cwtcn.kt.ui.TimeSeekBar
+            android:id="@+id/bar"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_dialog_updata_min"
+                android:layout_width="35dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:text="@string/minute_3"
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/follow_dialog_time_text_size"
+                android:visibility="invisible" />
+
+            <SeekBar
+                android:id="@+id/seekBar_update_time"
+                android:layout_width="280dp"
+                android:layout_height="38dp"
+                android:max="120"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:progressDrawable="@drawable/sbcontrol_layor"
+                android:thumb="@drawable/sb_thumb_1" />
+
+            <TextView
+                android:layout_width="35dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rounded_rectangle_81_blue"
+                android:gravity="center"
+                android:text="@string/minute_3"
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/follow_dialog_time_text_size" />
+
+            <TextView
+                android:layout_width="35dp"
+                android:layout_height="20dp"
+                android:background="@drawable/rounded_rectangle_81_blue"
+                android:gravity="center"
+                android:text="@string/minute_5"
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/follow_dialog_time_text_size" />
+
+            <TextView
+                android:layout_width="35dp"
+                android:layout_height="20dp"
+                android:background="@drawable/rounded_rectangle_81_blue"
+                android:gravity="center"
+                android:text="@string/minute_10"
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/follow_dialog_time_text_size" />
+
+            <TextView
+                android:layout_width="35dp"
+                android:layout_height="20dp"
+                android:background="@drawable/rounded_rectangle_81_blue"
+                android:gravity="center"
+                android:text="@string/minute_20"
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/follow_dialog_time_text_size" />
+
+            <TextView
+                android:layout_width="35dp"
+                android:layout_height="20dp"
+                android:background="@drawable/rounded_rectangle_81_blue"
+                android:gravity="center"
+                android:text="@string/minute_30"
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/follow_dialog_time_text_size" />
+        </com.cwtcn.kt.ui.TimeSeekBar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/warning_small" />
+
+            <TextView
+                android:id="@+id/tv_dialog_show_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/follow_time_text"
+                android:textColor="@color/text_black" />
+        </LinearLayout>
+
+        <!--
+             <Button
+            android:id="@+id/btn_dialog_sure"
+            android:layout_width="195dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_common_bg_selector_green"
+            android:text="@string/_save"
+            android:textSize="24sp"
+            android:textColor="@android:color/white" />
+        -->
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_dialog_updata_location_time"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="5dp"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,977 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout
+END
+chat_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/chat_main.xml
+END
+google_history_location.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/google_history_location.xml
+END
+add_child_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/add_child_layout.xml
+END
+item_location_baidu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/item_location_baidu.xml
+END
+edit_single_child_dialog_mongolia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/edit_single_child_dialog_mongolia.xml
+END
+introduce_page_bg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_bg.xml
+END
+item_image.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/item_image.xml
+END
+dialog_validation_code.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/dialog_validation_code.xml
+END
+customprogressdialog_mongolia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/customprogressdialog_mongolia.xml
+END
+row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/row.xml
+END
+edit_single_child_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/edit_single_child_dialog.xml
+END
+child_data_info_layout_mongolia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/child_data_info_layout_mongolia.xml
+END
+about_us_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/about_us_layout.xml
+END
+baidu_all_tracker_location.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/baidu_all_tracker_location.xml
+END
+webpageloadprogressdialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/webpageloadprogressdialog.xml
+END
+edit_chat_item_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/edit_chat_item_dialog.xml
+END
+contact_us_zhyx.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/contact_us_zhyx.xml
+END
+select_image_dialog_mongolia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/select_image_dialog_mongolia.xml
+END
+list_ex_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/list_ex_dialog.xml
+END
+item_chat_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/item_chat_list.xml
+END
+introduce_page_en_0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_en_0.xml
+END
+introduce_page_en_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_en_2.xml
+END
+contact_us_lbn.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/contact_us_lbn.xml
+END
+introduce_page_en_4.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_en_4.xml
+END
+dialog_updata_location_lower.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/dialog_updata_location_lower.xml
+END
+introduce_page_en_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_en_6.xml
+END
+select_image_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/select_image_dialog.xml
+END
+introduce_page_en_8.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_en_8.xml
+END
+item_diao_photo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/item_diao_photo.xml
+END
+change_password_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/change_password_layout.xml
+END
+user_agreement.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/user_agreement.xml
+END
+detail_message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/detail_message.xml
+END
+google_all_tracker_location.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/google_all_tracker_location.xml
+END
+baidu_area_set_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/baidu_area_set_1.xml
+END
+group_view_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/group_view_2.xml
+END
+introduce_page_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_1.xml
+END
+baidu_area_set_3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/baidu_area_set_3.xml
+END
+introduce_page_3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_3.xml
+END
+list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/list.xml
+END
+introduce_page_5.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_5.xml
+END
+introduce_page_7.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_7.xml
+END
+introduce_en.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_en.xml
+END
+activity_capture.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/activity_capture.xml
+END
+customprogressdialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/customprogressdialog.xml
+END
+introduce_page_9.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_9.xml
+END
+register_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/register_layout.xml
+END
+introduce_mn.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_mn.xml
+END
+help.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/help.xml
+END
+check_press.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/check_press.xml
+END
+log_in_layout_mongolia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/log_in_layout_mongolia.xml
+END
+help_image.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/help_image.xml
+END
+dialog_set_hit_level_mongolia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/dialog_set_hit_level_mongolia.xml
+END
+child_list_layout_mongolia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/child_list_layout_mongolia.xml
+END
+set_quiet_time1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/set_quiet_time1.xml
+END
+object_management.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/object_management.xml
+END
+register_layout_mongolia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/register_layout_mongolia.xml
+END
+item_my_message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/item_my_message.xml
+END
+dialog_updata_location_mongolia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/dialog_updata_location_mongolia.xml
+END
+dialog_android_time_picker.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/dialog_android_time_picker.xml
+END
+dialog_confirm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/dialog_confirm.xml
+END
+introduce_page_ru_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_ru_1.xml
+END
+introduce_page_ru_3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_ru_3.xml
+END
+check_version.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/check_version.xml
+END
+introduce_page_ru_5.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_ru_5.xml
+END
+introduce_page_ru_7.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_ru_7.xml
+END
+set_quiet_time1_mongolia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/set_quiet_time1_mongolia.xml
+END
+introduce_page_ru_9.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_ru_9.xml
+END
+dialog_validation_code_mongolia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/dialog_validation_code_mongolia.xml
+END
+dialog_del_tra_his_loc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/dialog_del_tra_his_loc.xml
+END
+goupe_title_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/goupe_title_info.xml
+END
+item_setting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/item_setting.xml
+END
+item_grid_dialog_photo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/item_grid_dialog_photo.xml
+END
+activity_title.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/activity_title.xml
+END
+set_family_num_layout_mongolia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/set_family_num_layout_mongolia.xml
+END
+diao_show_family_member_photo_mongolia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/diao_show_family_member_photo_mongolia.xml
+END
+item_location_google2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/item_location_google2.xml
+END
+set_family_num_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/set_family_num_layout.xml
+END
+base_act_right_slide.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/base_act_right_slide.xml
+END
+dialog_ble_updata.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/dialog_ble_updata.xml
+END
+dialog_comment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/dialog_comment.xml
+END
+item_grid_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/item_grid_dialog.xml
+END
+google_map_area_setting_mongolia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/google_map_area_setting_mongolia.xml
+END
+status_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/status_list_item.xml
+END
+group_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/group_main.xml
+END
+activity_all_mms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/activity_all_mms.xml
+END
+sport_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/sport_layout.xml
+END
+right_seven_button.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/right_seven_button.xml
+END
+google_history_location_mongolia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/google_history_location_mongolia.xml
+END
+guide_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/guide_dialog.xml
+END
+menu_frame.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/menu_frame.xml
+END
+introduce_set_family_ru.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_set_family_ru.xml
+END
+item_ble_updata.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/item_ble_updata.xml
+END
+main_map_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/main_map_layout.xml
+END
+default_contact_us_bg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/default_contact_us_bg.xml
+END
+child_data_info_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/child_data_info_layout.xml
+END
+location_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/location_dialog.xml
+END
+change_password_layout_mongolia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/change_password_layout_mongolia.xml
+END
+introduce_page_en_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_en_1.xml
+END
+list_child_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/list_child_item.xml
+END
+introduce_page_en_3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_en_3.xml
+END
+item_list_group_member.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/item_list_group_member.xml
+END
+all_title_bar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/all_title_bar.xml
+END
+contact_us_tailand.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/contact_us_tailand.xml
+END
+set_quiet_time_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/set_quiet_time_item.xml
+END
+introduce_page_en_5.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_en_5.xml
+END
+children_group_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/children_group_list.xml
+END
+logo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/logo.xml
+END
+introduce_page_en_7.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_en_7.xml
+END
+contact_us.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/contact_us.xml
+END
+item_all_mms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/item_all_mms.xml
+END
+introduce_page_en_9.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_en_9.xml
+END
+dialog_set_hit_level.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/dialog_set_hit_level.xml
+END
+dialog_ok_confirm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/dialog_ok_confirm.xml
+END
+group_view_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/group_view_1.xml
+END
+introduce_page_0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_0.xml
+END
+baidu_area_set_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/baidu_area_set_2.xml
+END
+introduce_page_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_2.xml
+END
+activity_pager.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/activity_pager.xml
+END
+introduce_page_4.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_4.xml
+END
+introduce_page_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_6.xml
+END
+input_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/input_dialog.xml
+END
+introduce_page_8.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_8.xml
+END
+dialog_updata_location_lower_mongolia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/dialog_updata_location_lower_mongolia.xml
+END
+dialog_updata_location.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/dialog_updata_location.xml
+END
+set_time_act_mongolia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/set_time_act_mongolia.xml
+END
+baidu_area_set.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/baidu_area_set.xml
+END
+introduce.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce.xml
+END
+google_map_area_setting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/google_map_area_setting.xml
+END
+set_time_act.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/set_time_act.xml
+END
+dialog_confirm_mongolia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/dialog_confirm_mongolia.xml
+END
+sport_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/sport_view.xml
+END
+ble_connect_act.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/ble_connect_act.xml
+END
+calendar_popuwindow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/calendar_popuwindow.xml
+END
+log_in_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/log_in_layout.xml
+END
+dialog_time_picker.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/dialog_time_picker.xml
+END
+item_list_group_member_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/item_list_group_member_2.xml
+END
+diao_show_family_member_photo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/diao_show_family_member_photo.xml
+END
+introduce_page_ru_0.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_ru_0.xml
+END
+introduce_page_ru_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_ru_2.xml
+END
+introduce_page_ru_4.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_ru_4.xml
+END
+ota_updata.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/ota_updata.xml
+END
+item_location_google.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/item_location_google.xml
+END
+introduce_page_ru_6.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_ru_6.xml
+END
+help_imager_point.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/help_imager_point.xml
+END
+introduce_page_ru_8.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_page_ru_8.xml
+END
+contact_us_mongolia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/contact_us_mongolia.xml
+END
+layout2_loop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/layout2_loop.xml
+END
+logindialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/logindialog.xml
+END
+my_message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/my_message.xml
+END
+introduce_set_family_en.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_set_family_en.xml
+END
+regdialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/regdialog.xml
+END
+baidu_history_location.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/baidu_history_location.xml
+END
+groupe_title_info_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/groupe_title_info_2.xml
+END
+dialog_create_group.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/dialog_create_group.xml
+END
+introduce_ru.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_ru.xml
+END
+introduce_set_family.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/introduce_set_family.xml
+END
+user_info_back.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/user_info_back.xml
+END
+setting_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/setting_layout.xml
+END
+child_list_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/child_list_layout.xml
+END
+add_child_layout_mongolia.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/add_child_layout_mongolia.xml
+END
+list_group_member.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/list_group_member.xml
+END
+spinner.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/layout/spinner.xml
+END

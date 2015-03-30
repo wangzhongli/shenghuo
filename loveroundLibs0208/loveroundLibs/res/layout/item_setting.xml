@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.cwtcn.kt.ui.MyListView
+        android:id="@+id/is_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/tab_tv_bg"
+        android:dividerHeight="1dp" >
+    </com.cwtcn.kt.ui.MyListView>
+
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="queren" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:background="@color/tab_tv_bg" >
+
+            <com.example.load.ui.WiperSwitch
+                android:layout_width="64dp"
+                android:layout_height="29dp" />
+        </LinearLayout>
+    </LinearLayout>    -->
+
+</LinearLayout>

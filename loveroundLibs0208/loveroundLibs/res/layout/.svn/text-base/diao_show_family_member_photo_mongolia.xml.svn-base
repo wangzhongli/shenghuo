@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dialog_1_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_diao_show_family_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/text_my_relation_name"
+            android:textColor="#fff" />
+
+        <GridView
+            android:id="@+id/gv_diao_show_family_member"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:listSelector="@drawable/transparent_selector"
+            android:numColumns="3" >
+        </GridView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/text_my_photo_of_relation"
+            android:textColor="#fff" />
+        
+          <GridView
+            android:id="@+id/gv_diao_show_family_member_img"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="270dp"
+            android:listSelector="@drawable/transparent_selector"
+            android:numColumns="3" >
+        </GridView> 
+
+      <!--   <LinearLayout
+            android:id="@+id/line_dialog_show_family_photo"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/iv_diao_pt1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:padding="2dp"
+                    android:src="@drawable/img_family_1" />
+
+                <ImageView
+                    android:id="@+id/iv_diao_pt2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:padding="2dp"
+                    android:src="@drawable/img_family_2" />
+
+                <ImageView
+                    android:id="@+id/iv_diao_pt3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:padding="2dp"
+                    android:src="@drawable/img_family_3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/iv_diao_pt4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:padding="2dp"
+                    android:src="@drawable/img_family_4" />
+
+                <ImageView
+                    android:id="@+id/iv_diao_pt5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:padding="2dp"
+                    android:src="@drawable/img_family_5" />
+
+                <ImageView
+                    android:id="@+id/iv_diao_pt6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:padding="2dp"
+                    android:src="@drawable/img_family_6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/iv_diao_pt7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:padding="2dp"
+                    android:src="@drawable/img_family_7" />
+
+                <ImageView
+                    android:id="@+id/iv_diao_pt8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:padding="2dp"
+                    android:src="@drawable/img_family_8" />
+
+                <ImageView
+                    android:id="@+id/iv_diao_pt9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:padding="2dp"
+                    android:src="@drawable/img_family_9" />
+            </LinearLayout>
+        </LinearLayout> -->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textview_bg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/btn_diao_show_fam_cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/dialog_btn_selector"
+                    android:text="@string/btn_can"
+                    android:textColor="#fff"
+                    android:textSize="17sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/map_top_devider" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/btn_diao_show_fam_yes"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/dialog_btn_selector"
+                    android:text="@string/btn_ok"
+                    android:textColor="#fff"
+                    android:textSize="17sp" />
+            </RelativeLayout>
+        </LinearLayout> 
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f8f8f8"
+        android:orientation="vertical" >
+
+        <com.hg.android.widget.ScaleFrameLayout
+            xmlns:custom="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/head_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            custom:heightScale="0.83" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="true"
+                android:orientation="vertical" >
+
+                <!-- 静态大图 -->
+
+                <ImageView
+                    android:id="@+id/mall_reco_info_iv_bigicon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:scaleType="fitXY" />
+                <!-- 主图下面透明布局 -->
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="48dip"
+                    android:layout_gravity="bottom"
+                    android:background="#8f000000" >
+
+                    <include layout="@layout/mall_recommend_pic_bottom" />
+                </FrameLayout>
+            </FrameLayout>
+        </com.hg.android.widget.ScaleFrameLayout>
+
+        <TextView
+            android:id="@+id/mall_reco_info_tv_dec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/head_layout"
+            android:layout_margin="3dip"
+            android:background="@color/white"
+            android:ellipsize="end"
+            android:maxLength="75"
+            android:maxLines="3"
+            android:paddingBottom="2dip"
+            android:paddingLeft="8dip"
+            android:paddingRight="8dip"
+            android:paddingTop="2dip"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/mall_reco_view"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/mall_reco_info_tv_dec"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:id="@+id/tv_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mall_reco_view"
+            android:layout_marginTop="5dip"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="?android:attr/listDivider" />
+
+            <TextView
+                android:id="@+id/mall_recom_info_com_tv"
+                android:layout_width="match_parent"
+                android:layout_height="40dip"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dip"
+                android:text="评论"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="?android:attr/listDivider" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

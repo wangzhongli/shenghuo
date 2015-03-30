@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+ <!-- checked -->
+    <item android:drawable="@drawable/mall_recommend_info_heart_select" android:state_checked="true"/>
+    <item android:drawable="@drawable/mall_recommend_info_heart_select" android:state_pressed="true"/>
+    <item android:drawable="@drawable/mall_recommend_info_heart_select" android:state_focused="true"/>
+ <!-- default -->
+    <item android:drawable="@drawable/mall_recommend_info_heart" android:state_checked="false"/>
+    <item android:drawable="@drawable/mall_recommend_info_heart" android:state_pressed="true"/>
+    <item android:drawable="@drawable/mall_recommend_info_heart" android:state_focused="true"/>
+
+</selector>

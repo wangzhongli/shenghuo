@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+    <include
+        android:id="@+id/title_bar_top"
+        layout="@layout/title_bar"
+        />
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_margin"
+        android:textSize="@dimen/title_textSize"
+        android:layout_below="@id/title_bar_top"
+        android:text="正在定位..."
+        />
+    <View
+        android:id="@+id/view"
+        android:layout_below="@id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line_background"
+        />
+    <Button 
+	    android:id="@id/ok_btn"
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/dimen_48"
+	    android:background="@drawable/btn_background_select"
+	    style="@style/button_color_font"
+	    android:text="@string/text_manual_select_community"
+	    android:layout_alignParentBottom="true"
+	    />
+    <ListView
+	    android:id="@id/listview"
+	    android:layout_below="@id/view"
+	    android:layout_above="@id/ok_btn"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:divider="@color/line_background"
+	    android:dividerHeight="0.5dp"
+	    android:cacheColorHint="#00000000"
+	    />
+</RelativeLayout>

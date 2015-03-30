@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+    
+    <EditText android:layout_width="0dip"
+        android:layout_marginBottom="3dip"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:id="@+id/editText"
+        />
+    
+    <Button 
+        android:layout_margin="8dip"
+        android:layout_width="60dip"
+        android:textSize="16sp"
+        android:layout_height="match_parent"
+        android:id="@+id/button"
+        android:text="搜索"
+        android:textColor="@color/white"
+        android:background="@drawable/mall_sl_button_search"
+        />
+
+</LinearLayout>

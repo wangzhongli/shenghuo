@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_1_bg"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dcon_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/loging_margin_default_larger"
+        android:text="@string/confirmation_time_picker"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/text_white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/undline_height"
+        android:layout_marginLeft="@dimen/loging_margin_default_larger"
+        android:layout_marginRight="@dimen/loging_margin_default_larger"
+        android:background="@color/textview_bg" />
+
+    <TimePicker
+        android:id="@+id/timePic1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/loging_margin_default"
+        android:gravity="center_vertical"
+        android:padding="5dp" >
+
+        <Button
+            android:id="@+id/dcon_ok"
+            android:layout_width="100dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_btn_selector"
+            android:text="@string/btn_ok"
+            android:textColor="#000099" />
+
+        <Button
+            android:id="@+id/dcon_can"
+            android:layout_width="100dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_btn_selector"
+            android:text="@string/btn_can"
+            android:textColor="#000099" />
+    </LinearLayout>
+
+</LinearLayout>

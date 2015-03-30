@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">Naiz</string>
+
+    <!-- <string name="app_name">XUEHU 100</string> -->
+
+
+    <!-- <string name="app_name">TIEXINBAO</string> -->
+
+
+    <!-- XUEHU 100 -->
+
+    <string name="set_family_name">Дугаар тохируулах</string>
+    <string name="tv_setting">Тохиргоо</string>
+    <string name="tv_location">Байршил</string>
+    <string name="tv_state">Статус</string>
+    <string name="tv_data">Мэдээлэл</string>
+    <string name="title_hint">Сануулга</string>
+    <string name="has_no_child">Объектоо нэмж, дараа нь бусад функцийг ашиглана уу!</string>
+    <string name="title_warning">Анхаар</string>
+    <string name="watch_taken_off">Анхаар, %s-н цаг бугуйнаас салсан байна</string>
+    <string name="out_of_areas">%s аюулгүй бүсээс гарсан байна!</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_can">Болих</string>
+    <string name="add_child_frist">Объектоо нэмж, дараа нь бусад функцийг ашиглана уу!</string>
+    <string name="edit_child">Мэдээлэл засах</string>
+    <string name="add_new_child">Объект нэмэх</string>
+    <string name="no_net_no_load">Интернэт холболтоо шалгана уу</string>
+    <string name="reset_factroy">Цагны анхны тохиргоог сэргээх. Бүх мэдээллүүд устгагдах болно, та итгэлтэй байна уу?</string>
+    <string name="reset_factroy_title">Цагны анхны тохиргоог сэргээх</string>
+    <string name="name_not_null">Хэрэглэгчийн нэрээ оруулна уу</string>
+    <string name="name_not_content">Хэрэглэгчийн нэрэнд @ онцгой үсэг болон тэмдэгт байж болохгүй!</string>
+    <string name="height_not_null">Биеийн өндрийг оруулна уу</string>
+    <string name="weight_not_null">Биеийн жинг оруулна уу</string>
+    <string name="sim_not_null">Утасны дугаараа оруулна уу</string>
+    <string name="imei_not_null">IMEI дугаараа оруулна уу</string>
+    <string name="imei_length_fifteen">15 оронтой IMEI дугаар оруулна уу</string>
+    <string name="ota_updata">Бугуйн цагны bluetooth систем шинэчлэх</string>
+    <string name="password_not_null">Нууц үгээ оруулна уу</string>
+    <string name="password_confrim_not_null">Нууц үгээ баталгаажуулна уу</string>
+    <string name="password_not_equals_confrim">Нууц үг хоорондоо таарахгүй байна, дахин оруулна уу!</string>
+    <string name="dialog_set_time">Цаг тохируулах</string>
+    <string name="email_not_null">И-мэйл хаягаа оруулна уу</string>
+    <string name="sign_success">Амжилттай бүртгэлээ</string>
+    <string name="net_request_err">Интернэт холболтоо шалгана уу</string>
+    <string name="net_overdute">Та дахин нэвтрэнэ үү!</string>
+    <string name="net_server_err">Интернэт холболтоо шалгана уу!</string>
+    <string name="remember_name">Санах</string>
+    <string name="text_jing_yin_adds"> Нэмэх тэмдэгийг дарж чимээгүй байх үеийн цагийг оруулна уу</string>
+    <string name="load">Нэвтрэх</string>
+    <string name="net_upload_fail">Зураг оруулах үйлдэл амжилтгүй</string>
+    <string name="load_success_load_all_tarcker">Амжилттай нэвтэрлээ \r\n өгөгдөл дамжуулж байна…</string>
+    <string name="current_imei_repeated">Тус IMEI кодыг ашиглаж байна, зөв IMEI код оруулна уу!</string>
+    <string name="text_watch_reset_factory_jing_gao">Анхааруулга</string>
+    <string name="last_address">Сүүлийн байршил:</string>
+    <string name="has_no_upload_positions">Байршлын мэдээлэлгүй байна</string>
+    <string name="dialog_message_loading">Нэвтэрч байна…</string>
+    <string name="dialog_message_signing">Бүртгэгдэж байна…</string>
+    <string name="dialog_message_save_data">Хадгалж байна…</string>
+    <string name="dialog_confirm_exit_edit">Өөрчлөлтийг болих уу?</string>
+    <string name="dialog_confirm_exit_add"> Хадгалахаа болих уу?</string>
+    <string name="dialog_confirm_delete_child">%s-н мэдээллийг устгах уу?</string>
+    <string name="btn_start_use">Нэвтрэх</string>
+    <string name="hint_input_name">ID</string>
+    <string name="image_content_description">Зураг</string>
+    <string name="state_power_low">Бугуйн цагны цэнэг хүрэлцэхгүй болсон байна</string>
+    <string name="state_power_low_more">Бугуйн цагны цэнэг бага байна</string>
+    <string name="state_power_normal">Бугуйн цагны цэнэг хэвийн  байна</string>
+    <string name="state_power_high">Бугуйн цагны цэнэг хэвийн  байна</string>
+    <string name="state_location_open">Цагийн тохируулга бүхий байршил шинэчлэлтийг  идэвхижүүлэх</string>
+    <string name="state_location_close">Цагийн тохируулга бүхий байршил шинэчлэлтийг  унтраах</string>
+    <string name="state_send_sim_start_request_net">Байршил идэвхижилтийн хүсэлт илгээх</string>
+    <string name="state_send_sim_close_request_net">Байршил хаах хүсэлт илгээх</string>
+    <string name="state_imei_state_change">Объектын үйл ажиллагааны байдал шинэчлэгдсэн.</string>
+    <string name="state_location_message_success">Байршил тодорхойлох тохиргооны хүсэлт илгээгдлээ </string>
+    <string name="state_location_message_err">Байршил тодорхойлох хүсэлт амжилтгүй</string>
+    <string name="state_sett_message_err">Тохиргоо амжилтгүй</string>
+    <string name="add_family_num">Гэр бүлийн дугаар оруулах</string>
+    <string name="notify_tickertext">Танд хариу ирлээ!</string>
+    <string name="notify_contentTitle">Одоогийн байршил тохируулах</string>
+    <string name="notify_contentText">Танд тохиргооны мэдээлэл ирлээ, шалгана уу!</string>
+    <string name="modify_or_not">Өөрчлөлт хийх?</string>
+    <string name="tracking_msg_send_success">Байршил дагах хүсэлт илгээгдлээ</string>
+    <string name="tracking_msg_send_fail">Байршил дагах хүсэлт амжилтгүй</string>
+    <string name="open_location_tracking">Байршил дагагчийг идэвхижүүлэх</string>
+    <string name="set_msg_send_failure">Тохиргоо амжилтгүй</string>
+    <string name="set_msg_send_success">Тохиргооны  хүсэлт илгээгдлээ</string>
+    <string name="input_num">Дугаараа оруулна уу</string>
+    <string name="input_sim_num">Цагны утасны дугаарыг оруулна уу</string>
+    <string name="input_family_number">Дотны дугаараа оруулна уу</string>
+    <string name="getting_current_location">Байршлыг хайж байна…</string>
+    <string name="get_current_location">Одоогийн байршлыг олох</string>
+    <string name="check_all_objects_location">Бүх объектын байршлыг хайх</string>
+    <string name="check_net">Интернэт холболтоо шалгана уу!</string>
+    <string name="account_cannot_null">ID</string>
+    <string name="no_net">Интернэт холболтоо шалгана уу!</string>
+    <string name="password_cannot_empty">Нууц үгээ оруулна уу</string>
+    <string name="login_success">Нэвтэрлээ!</string>
+    <string name="request_error">Алдаа гарлаа, мэдээлэл хоосон байна!</string>
+    <string name="open_file">Файл нээх</string>
+    <string name="_skip">Алгасах</string>
+    <string name="create_object">Нэмэх</string>
+    <string name="_save">Хадгалах</string>
+    <string name="_name">Нэр</string>
+    <string name="person_data">Хувийн мэдээлэл</string>
+    <string name="gender_colon">Хүйс:</string>
+    <string name="_birthday">Төрсөн өдөр</string>
+    <string name="_height">Биеийн өндөр:</string>
+    <string name="_weight">Биеийн жин:</string>
+    <string name="height_unit">Өндөр(cm):</string>
+    <string name="weight_unit">Жин(кг):</string>
+    <string name="hint_height">биеийн өндөр</string>
+    <string name="hint_weight">биеийн өндөр</string>
+    <string name="associate_watch">Холбогдох мэдээллүүд</string>
+    <string name="_number">Бугуйн цагны дугаар:</string>
+    <string name="_my_number">Таны утасны дугаар:</string>
+    <string name="input_imei_num">Цагны IMEI </string>
+    <string name="_num1">Дугаар1:</string>
+    <string name="_num2">Дугаар2:</string>
+    <string name="_num3">Дугаар3:</string>
+    <string name="add_local_phone_number">Утасны дугаар нэмэх</string>
+    <string name="check_object">Объектыг харах</string>
+    <string name="_back">Буцах</string>
+    <string name="logging_in">нэвтэрч байна…</string>
+    <string name="confirmation_box">Баталгаажуулах</string>
+    <string name="_imei">IMEI:</string>
+    <string name="set_sim_num">Sim дугааар оруулах</string>
+    <string name="no_set">Тохиргоо хийгдээгүй байна</string>
+    <string name="start_set">Тохиргоо хийж эхлэх</string>
+    <string name="object_list">Жагсаалт</string>
+    <string name="_add">Нэмэх</string>
+    <string name="location_through_base_station">Өмнөх байршил хайх</string>
+    <string name="all_objects_location">Бүх объектын байршлыг хайх</string>
+    <string name="input_account">Хэрэглэгчийн ID оруулна уу</string>
+    <string name="log_in">Нэвтрэх</string>
+    <string name="check_data">Харах</string>
+    <string name="_edit">Өөрчлөх</string>
+    <string name="_edit_obj">Засах</string>
+    <string name="_delete">Устгах</string>
+    <string name="_register">Бүртгүүлэх</string>
+    <string name="select_local_image">Зурагнаас сонгох</string>
+    <string name="take_photo">Зураг авах</string>
+    <string name="setting_object">Объектын тохиргоо</string>
+    <string name="setting_change_password">Нууц үг солих</string>
+    <string name="setting_area">Аюулгүй бүсийн тохиргоо</string>
+    <string name="setting_blue"> Bluetooth </string>
+    <string name="setting_about_me">Бусад</string>
+    <string name="exit">гарах</string>
+    <string name="set_area">Бүсийн тохиргоо хийх</string>
+    <string name="set">Тохируулах </string>
+    <string name="set_safety_area">Аюулгүй бүсийн тохиргоо</string>
+    <string name="safety_area">Аюулгүй бүс</string>
+    <string name="set_no_safety_area">Тохируулга хийсэнгүй!</string>
+    <string name="set_again">Дахин тохируулах</string>
+    <string name="map_draw_area">Газрын зурагт бүс тогтоох</string>
+    <string name="set_area_first">Бүсийн хүрээг тодорхойлно уу</string>
+    <string name="nick_name">Нэр</string>
+    <string name="safety_area_error">Алдаа,Дахин тодорхойлно уу!</string>
+    <string name="setting_message_fam">Тохиргооны хүсэлт илгээж байна</string>
+    <string name="setting_message">Хүсэлт илгээгдлээ</string>
+    <string name="re_call_phone_null">Хүүхдийн дугаар хоосон байна, дугаарыг оруулна уу!</string>
+    <string name="fam_msg_send_success">Дугаарын тохиргоо амжилттай</string>
+    <string name="fam_msg_send_fail">Амжилтгүй</string>
+    <string name="area_set_err">Дахин тохиргоо хийнэ үү</string>
+    <string name="hit_password">Нууц үг</string>
+    <string name="_password">Нууц үг</string>
+    <string name="confirmation_password">Нууц үгээ давтана уу</string>
+    <string name="hit_confirmation_password">нууц үгээ дахин оруулна уу</string>
+    <string name="user_name">Хэрэглэгчийн ID</string>
+    <string name="_email">И-мэйл</string>
+    <string name="hit_email">нууц үгээ олоход ашиглана</string>
+    <string name="phone_number">Утас</string>
+    <string name="user_register">Бүртгэл</string>
+    <string name="find_password">Нууц үгээ мартсан?</string>
+    <string name="sign_in">Бүртгүүлэх</string>
+    <string name="area_have_set">Тохиргоо амжилттай</string>
+    <string name="no_net_no_register">Интернэт холболтоо шалгана уу</string>
+    <string name="again_click_exit">Дахин дарж гарна уу</string>
+    <string name="select_location_icon">Заагчийн дүрс сонгох</string>
+    <string name="user_agreement"> Үйлчилгээний нөхцөл</string>
+    <string name="check_update">Шинэ хувилбар шалгах</string>
+    <string name="birthday_colon">Төрсөн өдөр:</string>
+    <string name="watch_send_sim_start_request_net">Оосорын мэдрэгчийг ачаалах хүсэлт</string>
+    <string name="watch_send_sim_close_request_net">Оосорын мэдрэгчийг зогсоох хүсэлт</string>
+    <string name="hit_send_sim_start_request_net">Доргилт мэдрэгчийг идэвхжүүлэх хүсэлт илгээлээ</string>
+    <string name="hit_send_sim_close_request_net">Доргилт мэдрэгчийг унтраах хүсэлт илгээлээ</string>
+    <string name="step_send_sim_start_request_net">Алхам тоологч ажиллуулах хүсэлт илгээлээ</string>
+    <string name="step_send_sim_close_request_net">Алхам тоологч унтраах хүсэлт илгээлээ</string>
+    <string name="get_current_location_sms">Хүсэлт илгээж байна</string>
+    <string name="dialog_message_del">устгаж байна…</string>
+    <string name="state_open">идэвхтэй</string>
+    <string name="state_close">идэвхгүй</string>
+    <string name="current_version">Хувилбар:</string>
+    <string name="set_zdjt">Буцаж залган чагнах</string>
+    <string name="set_send_zdjt">Буцаан залгах хүсэлт илгээлээ</string>
+    <string name="no_function">Demo хувилбар дээр ажиллахгүй!</string>
+    <string name="stop_blu_service">Цагтай холбогдсон байна, Bluetooth-г унтраах уу?</string>
+    <string name="stop_current_blu_service">Дагах үйлдлийг унтраах уу?</string>
+    <string name="not_run_blu">Уучлаарай,Таны утас Bluetooth 4.0-г дэмжихгүй байна!</string>
+    <string name="blu_connect_suess">Холболт амжилттай!</string>
+    <string name="blu_dis_connect">Холболтыг салгах!</string>
+    <string name="blu_connect_fail">Холболт саатсан!</string>
+    <string name="blu_connecting">Холбож байна…</string>
+    <string name="blu_notify_dis">Bluetooth холболт тасарсан байна</string>
+    <string name="hit_notify_level">%s доргилт илэрлээ</string>
+    <string name="power_notify_power">Анхаар, %1$s -н цагны цэнэг %2$d -тай байна</string>
+    <string name="default_address">Байршлын мэдээлэлгүй байна</string>
+    <string name="default_address_name">Байршлын мэдээлэлгүй байна</string>
+    <string name="current_steps">:%d  алхам</string>
+    <string name="mark_pic">Шинээр объект нэмэх боломжгүй</string>
+    <string name="dialog_confirm_send_mess"> Тохиргоо хийх хүсэлт илгээх үү?</string>
+    <string name="not_add_child">Дүүрсэн тул шинээр нэмэх боломжгүй!</string>
+    <string name="del_family_num">Бүх дугаарыг устгах</string>
+    <string name="follow_time_setting">Цэнэг хэмнэх горим</string>
+    <string name="follow_time_text">%d минут тутам нэг удаа байршлын мэдээлэл өгч байхаар тохируулах</string>
+    <string name="dialog_message_get_famliy">Дугаарын мэдээллийг авч байна…</string>
+    <string name="no_set_famliy">Дугаарын тохиргоо ажмилтгүй!</string>
+    <string name="minute_3">3</string>
+    <string name="minute_5">5</string>
+    <string name="minute_10">10</string>
+    <string name="minute_20">20</string>
+    <string name="minute_30">30</string>
+    <string name="updata_all_tracker">Бүх объектыг шинэчлэх</string>
+    <string name="dialog_message_updata_all_tracker">Шинэчлэж байна…</string>
+    <string name="acsp_user_agreement">Би зөвшөөрч байна. </string>
+    <string name="acsp_user_agreement_2">Үйлчилгээний нөхцөл</string>
+    <string name="send_time_set_message">Цагийн тохиргооны хүсэлт илгээж байна</string>
+    <string name="input_aut_num">Баталгаажуулах код</string>
+    <string name="send_aut">Код авах</string>
+    <string name="auth_not_null">Кодоо оруулна уу</string>
+    <string name="local_num_not_null">Утасны дугаараа оруулна уу</string>
+    <string name="send_auth_message">Код авах хүсэлт илгээж байна</string>
+    <string name="last_data">өмнөх</string>
+    <string name="next_data">дараах</string>
+    <string name="dialog_message_all_location">Серверээс объектын мэдээллийг авч байна, түр хүлээнэ үү…</string>
+    <string name="dialog_message_history_location">Серверээс\r\n\ уг объектын байршлын түүхийг авч байна, \r\n түр хүлээнэ үү …</string>
+    <string name="message_no_history">Түүх алга байна</string>
+    <string name="btn_upgrade">Шинэчлэх</string>
+    <string name="btn_cancel">Болих</string>
+    <string name="head_version">Одоогийн байгаа нь хамгийн сүүлийн хувилбар %s, шинэчлэл хийх шаардлагагүй!</string>
+    <string name="no_location_his">Байршлын мэдээллээ явуулаагүй байна!</string>
+    <string name="power_show">Цэнэг:%d</string>
+    <string name="message_get_location">Байршил тогтоож байна</string>
+    <string name="set_msg_send_success_message">Хүсэлт амжилттай илгээгдлээ</string>
+    <string name="boy_text">Хүү</string>
+    <string name="girl_text">Охин</string>
+    <string name="num_one">1</string>
+    <string name="num_two">2</string>
+    <string name="num_three">3</string>
+    <string name="num_four">4</string>
+    <string name="num_five">5</string>
+    <string name="num_six">6</string>
+    <string name="num_seven">7</string>
+    <string name="num_eight">8</string>
+    <string name="add_more">Нэмэх</string>
+    <string name="sild_set">Тохиргоо</string>
+    <string name="sild_history_location">Байршлын түүх</string>
+    <string name="sild_all_location">Бүх объектын байршил</string>
+    <string name="sild_time_set">Цагийн интервал</string>
+    <string name="sild_hit_set">Доргилтын түвшин</string>
+    <string name="sild_area">Аюулгүйн бүс</string>
+    <string name="sild_night_trouble">Дуугүй төлөв</string>
+    <string name="sild_set_famliy">Дугаарууд</string>
+    <string name="sild_about">Апп-ын тухай</string>
+    <string name="current_all_walk_steps">%d алхам</string>
+    <string name="baifenhao">%</string>
+    <string name="confirmation_time_picker">Цаг тохируулах</string>
+    <string name="dialog_message_get_quite_time">Дуугүй төлвийн мэдээлэл авч байна…</string>
+    <string name="message_no_quite_time">Дуугүй төлөв тохируулна уу!</string>
+    <string name="message_set_quite_time">Дуугүй төлөв</string>
+    <string name="message_can_quite_time">устгах</string>
+    <string name="message_can_quite_time_finish">Болсон</string>
+    <string name="current_version_code">Хувилбар(vers):</string>
+    <string name="guanfangwangzhan">Манай вэб сайт</string>
+    <string name="notice_set_family_text">1–3 шаардлага бүхий дугаарууд, 4–8 дэд дугаарууд болно</string>
+    <string name="mms_data">Түүхэн байршлын тэмдэглэл</string>
+    <string name="hit_level_1">хөнгөн</string>
+    <string name="hit_level_2">энгийн</string>
+    <string name="hit_level_3">ноцтой</string>
+    <string name="hit_level_4">хүнд</string>
+    <string name="hit_current_level">Доргилтын түвшин: %d</string>
+    <string name="hit_level_setting">Доргилтын түвшин тохируулах</string>
+    <string name="password_length_err">Нууц үгний уртыг 6-аас 16 оронтой байхаар тохируулна уу</string>
+    <string name="email_err">И-майл хаягийн формат буруу байна</string>
+    <string name="user_help">Тусламж</string>
+    <string name="sex_text">Хүйс:</string>
+    <string name="no_dirs">Цааш үргэлжлэх боломжгүй</string>
+    <string name="dir_back">Буцах</string>
+    <string name="no_set_quite_time">Дуугүй горим амжилтгүй!</string>
+    <string name="dialog_confirm_set_family_frist">Объект амжилттай нэмэгдлээ! \r\n\r\n Дугаарыг тохируулна уу</string>
+    <string name="dialog_confirm_send_mess_hbjt">Буцаж дуудлага хийх хүсэлт илгээх үү?</string>
+    <string name="dialog_confirm_send_mess_get_location">%s  цагны байршил үргэлжилсэн байдлаар хүлээн авах хүсэлт илгээх үү? </string>
+    <string name="dialog_confirm_send_mess_watch">Цаг зүүсэн эсэхийг шалгах хүсэлт илгээх үү? </string>
+    <string name="dialog_confirm_send_mess_hit">Доргилт мэдрэх хүсэлт илгээх үү?</string>
+    <string name="dialog_confirm_send_mess_location">%s объектын байршлыг харах хүсэлт илгээх үү?</string>
+    <string name="dialog_confirm_send_mess_open">Нээх</string>
+    <string name="dialog_confirm_send_mess_close">Хаах</string>
+    <string name="toast_love_area">Аюулгүйн бүс  функц %s</string>
+    <string name="title_location">Үргэлжилсэн байршил тогтоох</string>
+    <string name="title_hit">Доргилт мэдрэх</string>
+    <string name="title_watch">Оосорын мэдрэгчийг шалгах</string>
+    <string name="title_blue">Хүүхдээ хянах</string>
+    <string name="title_set_family">Гэр бүлийн дугаар тохируулах </string>
+    <string name="dialog_confirm_send_mess_set">зөвшөөрөх үү?</string>
+    <string name="dialog_confirm_send_mess_set_hit">Цагны тохиргоо хийх хүсэлт илгээх үү?</string>
+    <string name="dialog_confirm_send_mess_clear_family">Бүх хадгалсан дугаарыг устгах хүсэлт илгээх үү?</string>
+    <string name="dialog_confirm_send_mess_clear_family_or">Бүх дугаарыг устгах уу?</string>
+    <string name="title_set_quite_times">Дуугүй төлөв тохируулах</string>
+    <string name="location_time_out">Байршил тогтоолт саатлаа</string>
+    <string name="location_time_ok">Байршлыг тогтоолоо</string>
+    <string name="quite_time_invalid">хүчингүй</string>
+    <string name="quite_time_open">идэвхижүүлэх</string>
+    <string name="quite_time_close">унтраах</string>
+    <string name="quite_time_set_times">Цагийн тохиргоо</string>
+    <string name="quite_time_set_times_max">Дуугүй төлөвийн тохируулга олон байна!</string>
+    <string name="quite_time_1">цаг1:</string>
+    <string name="quite_time_2">цаг2:</string>
+    <string name="quite_time_3">цаг3:</string>
+    <string name="quite_time_4">цаг4:</string>
+    <string name="quite_time_hit">Бугуйн цаг дээрхи цагуудад дуугүй төлөвт байна</string>
+    <string name="dialog_confirm_send_mess_clear_quite_times">Дуугүй төлөвийн бүх мэдээллийг устгах уу?</string>
+    <string name="dialog_confirm_send_mess_clear_quite_times_socket">Дуугүй төлөвийн бүх мэдээллийг устгах хүсэлт илгээх үү?</string>
+    <string name="dialog_confirm_send_mess_clear_quite_times_or">Дуугүй төлөвийн бүх мэдээллийг устгах хүсэлт илгээх үү?</string>
+    <string name="text_ok">OK</string>
+    <string name="dialog_confirm_send_mess_yzm">Бугуйн цаг дээр баталгаажуулах код харах хүсэлт илгээх үү?</string>
+    <string name="title_delet_object">Устгах</string>
+    <string name="title_object_data">%s-н мэдэээлэл </string>
+    <string name="mms_ktszhm1">Дугаар оруулах</string>
+    <string name="mms_ktqxhm_1">Дугаар цуцлах</string>
+    <string name="mms_ktcxhm">Дугаар харах</string>
+    <string name="mms_ktyzm">Баталгаажуулах код харах</string>
+    <string name="mms_ktwzgzkq">Байршил дагах функцыг идэвхижүүлэх</string>
+    <string name="mms_ktwzgzgb">Байршил дагах функцыг унтраах</string>
+    <string name="mms_ktwzgzjg">Байршил дагах  хугацааг өөрчлөх</string>
+    <string name="mms_ktjbkq">Алхам тоологчийн төлөв</string>
+    <string name="mms_ktjbgb">Алхам тоологч унтраах</string>
+    <string name="mms_ktbdjckq">Оосор шалгагч үйлдлийг идэвхижүүлэх</string>
+    <string name="mms_ktbdjcgb">Оосор шалгагч үйлдлийг унтраах</string>
+    <string name="mms_ktpzjckq">Доргилт мэдрэх функцыг идэвхижүүлэх</string>
+    <string name="mms_ktpzjcgb">Доргилт мэдрэх функцыг унтраах</string>
+    <string name="mms_ktbdjcdj">Доргилтын түвшинг өөрчлөх</string>
+    <string name="mms_ktcxwz">Одоогийн байршлыг хайх</string>
+    <string name="mms_ktdhjt">Буцаан залгах функцийг идэвхижүүлэх</string>
+    <string name="mms_ktjysdkq">Чимээгүй төлөв</string>
+    <string name="mms_ktjysdgb">Бүх цагийг цуцлах</string>
+    <string name="mms_ktcximei">imei дугаарыг харах</string>
+    <string name="mms_ktcxxx">Мэдээлэл харах</string>
+    <string name="mms_ktcjhm">Дугаар тохируулах</string>
+    <string name="mms_ktreset">Анхны тохиргоог сэргээх</string>
+    <string name="mms_hmSetfamilynumberok">Дугаарын тохируулга амжилттай</string>
+    <string name="mms_kthm1">Дугаарын жагсаалт</string>
+    <string name="mms_ktThewatchdisconnec">Цаг салсан байна</string>
+    <string name="mms_ktThe_watch_disconnec">Доргилт мэдээлэх </string>
+    <string name="mms_ktwz_0">Одоогийн байршлыг мэдээлэх</string>
+    <string name="mms_ktimei">imei мэдээлэх</string>
+    <string name="mms_ktzt">Төлөв мэдээлэх</string>
+    <string name="mms_ktIMEIerror">Алдаа: IMEI тохирохгүй байна</string>
+    <string name="mms_ktSetsuccessfully">Тохиргоо амжилттай</string>
+    <string name="mms_ktSetfail">Тохиргоо амжилтгүй</string>
+    <string name="mms_ktwzgz_huifu">Байршил дагах</string>
+    <string name="mms_ktjysd_kq_huifu">Дуугүй төлөвийн цагийг идэвхижүүлэх</string>
+    <string name="mms_ktjysd_gb_huifu">Дуугүй төлөвийн цагийг унтраах</string>
+    <string name="mms_ktcxwz_huifu">Байршил харах</string>
+    <string name="mms_ktbdjc_kq_huifu">Цагны оосорын мэдрэгчийг идэвхижүүлэх</string>
+    <string name="mms_ktbdjc_gb_huifu">Цагны оосорын мэдрэгчийг унтраах</string>
+    <string name="mms_ktpzjc_gb_huifu">Доргилт мэдрэгчийг унтраах</string>
+    <string name="mms_ktpzjc_kq_huifu">Доргилт мэдрэгчийг идэвхижүүлэх</string>
+    <string name="mms_ktdhjt_huifu">Чагнах</string>
+    <string name="mms_key_ktSetSuccese">Дугаарын тохиргоо амжилттай</string>
+    <string name="mms_key_ktWatchFall">Цаг салсан байна</string>
+    <string name="mms_key_ktWatchHit">Доргилт мэдрэгдлээ</string>
+    <string name="mms_key_ktError">Алдаа</string>
+    <string name="mms_key_ktSuccese">Тохиргоо амжилттай</string>
+    <string name="mms_key_ktFail">Тохиргоо амжилтгүй</string>
+    <string name="text_wait_loading">Ачааллаж байна...</string>
+    <string name="message_exit">Апп-с гарах уу? </string>
+    <string name="cmd_not_line_respone">%s цаг унтраастай байна, тохиргоо амжилтгүй</string>
+    <string name="set_err">Тохиргооны алдаа: %s</string>
+    <string name="cmd_respone_success">Тохиргоо амжилттай</string>
+    <string name="famliy_update_success">Дуугүй төлөвийн мэдээлэл шинэчлэгдлээ</string>
+    <string name="quite_time_update_success">чимээгүй горимын шинэлэл байна!</string>
+    <string name="set_over_time">Дахин тохиргоо хийнэ үү!</string>
+    <string name="cmd_respone_success_send">Амжилттай</string>
+    <string name="cmd_not_line_recall">">%s цаг унтраастай байна, буцаан залгах боломжгүй</string>
+    <string name="cmd_not_line_respone_fail">%1$s цаг унтраастай байна, %2$s тохиргоо амжилтгүй</string>
+    <string name="title_kq_wzgz">Байршил дагах функцийг идэвхижүүлэх</string>
+    <string name="title_gb_wzgz">Байршил дагах функцийг унтраах</string>
+    <string name="title_kq_pzjc">Доргилтын функцыг идэвхжүүлэх</string>
+    <string name="title_gb_pzjc">Доргилтын функцыг унтраах</string>
+    <string name="title_kq_bdjc">Цагны оосрын мэдрэгчийг идэвхижүүлэх</string>
+    <string name="title_gb_bdjc">Цагны оосрын мэдрэгчийг унтраах</string>
+    <string name="contact_us">Холбоо барих</string>
+    <string name="ble_not_supported">Bluetooth хувилбар дэмжихгүй байна, шинэчлэнэ үү</string>
+    <string name="text_contact_guan_fang_tel">Холбогдох утас:7010-2868</string>
+    <string name="text_contact_xin_wei_bo"></string>
+    <string name="text_contact_guan_wei_xin">Wechat ID:choihainzan</string>
+    <string name="booth_not_trun_on">Blueatooth асаагүй байна</string>
+    <string name="text_contact_guan_wang_zhan">Вэб сайт: http://www.choihainzan.com</string>
+    <string name="scan_text">QR код</string>
+    <string name="press_and_talk">Дарж ярина уу</string>
+    <string name="enviroment_listen">Орчинг чагнах</string>
+    <string name="figer_up_cancel_send">Хуруугаа дээш гүйлгэж цуцлана </string>
+    <string name="record_stoptalk">"> Хуруугаа авч яриаг дуусгана</string>
+    <string name="text_cancel_sending_record">Хуруугаа авч илгээлтийг цуцлана</string>
+    <string name="text_notice_sending_record">Хуруугаа дээш гүйлгэж илгээлтийг цуцлана</string>
+    <string name="recorde_file_not_exit">Дуут мессеж байхгүй байна</string>
+    <string name="record_talk">Дарж ярина уу</string>
+    <string name="recorde_finish">Дуут бичлэг хийж дууслаа</string>
+    <string name="not_on_line">Цаг унтраастай байгаа тул хүлээн авах боломжгүй</string>
+    <string name="not_on_line_voice">Цаг унтраастай байгаа тул сервэрт хадгаллаа</string>
+    <string name="set_quite_time_dialog_text">Хадгалалт хийгдсэнгүй, гарахдаа итгэлтэй байна уу?</string>
+    <string name="text_notice">Санамж</string>
+    <string name="set_quite_time_error">Та дуугүй горимыг тохируулаагүй байна!</string>
+    <string name="text_back">Буцах</string>
+    <string name="text_er_wei_ma_scan">QR код скайнер</string>
+    <string name="text_hour">цаг</string>
+    <string name="text_minute">минут</string>
+    <string name="text_get_system_time">Системийн цагийг авах</string>
+    <string name="text_guan_fang_we_chat_er_w_m">wechat QR код</string>
+    <string name="text_search_we_chat_notice">Скайнердана уу</string>
+    <string name="text_my_photo">Профайл зураг</string>
+    <string name="text_jian_hu_ren">Хэн болох?</string>
+    <string name="text_sport_title">Дасгал</string>
+    <string name="text_dan_wei_of_y">Нэгж(алхам)</string>
+    <string name="text_dan_wei_ka">Нэгж(ка)</string>
+    <string name="text_sport_of_day">Хоногоор тооцох</string>
+    <string name="text_sport_of_week">Долоо хоногоор тооцох</string>
+    <string name="text_watch_system_update">Бугуйн цагны систем шинэчлэл</string>
+    <string name="text_update_info">Шинэчлэлийн мэдээлэл</string>
+    <string name="text_begin_update">Шинэчилж эхлэх</string>
+    <string name="text_father">Аав</string>
+    <string name="text_mother">Ээж</string>
+    <string name="text_yeye">Өвөө</string>
+    <string name="text_nainai">Эмээ</string>
+    <string name="text_shushu">Авга ах</string>
+    <string name="text_ayi">Авга эгч</string>
+    <string name="text_waigong">Нагац ах</string>
+    <string name="text_waipo">Нагац эгч</string>
+    <string name="text_other">бусад</string>
+    <string name="text_auto_get_local_sim">Автоматаар хүлээн авах</string>
+    <string name="input_my_sim_num">Утасны дугаар</string>
+    <string name="text_child_data_my_photo">Профайл зураг:</string>
+    <string name="text_child_data_my_father">Аав</string>
+    <string name="text_bron_wo_shi_haizi_de">Та хүүхдийн:</string>
+    <string name="text_del_recorde">энэ тэмдэглэлийг устгах уу?</string>
+    <string name="text_my_relation_name">Та хүүхдийн:</string>
+    <string name="text_my_photo_of_relation">Профайл зураг:</string>
+    <string name="text_play">Тоглуулах</string>
+    <string name="text_re_send">Дахин илгээх</string>
+    <string name="text_mul_del">Сонгож устгах</string>
+    <string name="confirmation_ble_updata">Бугуйн цагны хувилбарыг шинэчлэх</string>
+    <string name="confirmation_ble_cancle">Бүх шинэчлэлийг цуцлах</string>
+    <string name="updata_message_ble">Blueatooth-ын шинэ хувилбар гарсан тул, шинэчлэнэ үү!</string>
+    <string name="updata_message_firmware">Системын шинэ хувилбар гарсан тул, шинэчлэнэ үү!</string>
+    <string name="updata_message_version">Шинэчлэх файлын хувилбар: %s</string>
+    <string name="updata_message_size">Файлын хэмжээ: %s</string>
+    <string name="not_find_updata_file">Шинэчлэл олдсонгүй</string>
+    <string name="wait_updata">Шинэчлэлийг хүлээж байна</string>
+    <string name="ble_is_new">Шинэчлэх шаардлагагүй!</string>
+    <string name="ble_notsuport">Таны утас уг функцыг дэмжихгүй байна!</string>
+    <string name="dialog_err_more_user_login">Өөр утаснаас давхар нэвтэрсэн байна, дахин нэвтэрнэ үү!</string>
+    <string name="dialog_err_login">Дахин нэвтэрнэ үү</string>
+    <string name="dialog_err_exit">Аккаунтаас гарах</string>
+    <string name="dialog_err_title">Оффлайн мэдэгдэл</string>
+    <string name="power_saving_mode_update">Цэнэг хэмнэх горимын шинэ хувилбар!</string>
+    <string name="interval">Хугацааны  тохиргоо</string>
+    <string name="interval_detail">Байршил тодорхойлох цаг хоорондыг зай ойрхон байх тусам цэнэг зарцуулалт өндөр байна</string>
+    <string name="location_mode">Байршил тогтоох хэлбэр</string>
+    <string name="accurate_model">Нарийвлалтай горим</string>
+    <string name="accurate_model_detail">GPS - Байршил тодорхойлогч болон суурь станцаар дамжуулан байрлалыг тогтооно</string>
+    <string name="normal_model">Хэвийн горим</string>
+    <string name="normal_model_detail">GPS болон суурь станцаар хосолсон байршил тогтоох</string>
+    <string name="power_saving_mode">Цэнэг хэмнэх горим</string>
+    <string name="power_saving_mode_detail">Зөвхөн суурь станцаар байршил тогтоох нь нилээд зөрүүтэй гардаг</string>
+    <string name="sleep_period">Унтлагын цаг</string>
+    <string name="sleep_period_detail">Идэвхижүүлсний дараагаар бугуйн цаг энэ цагт амралтын байдалд орно</string>
+    <string name="confirm_set_time">%1$s-д тохируулсан цаг: %2$s ?</string>
+    <string name="net_overdute_relaod">Хүсэлт амжилтгүй боллоо, дахин оролдоно уу!</string>
+    <string name="change_password">Нууц үг солих</string>
+    <string name="changing_password">Нууц үгийг сольж байна</string>
+    <string name="current_account">Ашиглаж байгаа ID,бүртгэл</string>
+    <string name="old_password">Ашиглаж байгаа нууц үг</string>
+    <string name="new_password">Шинэ нууц үг</string>
+    <string name="confirm_password">Нууц үгээ баталгаажуулах</string>
+    <string name="hint_old_password">Хуучин нууц үгээ оруулна уу</string>
+    <string name="hint_new_password">Шинэ нууц үгээ оруулна уу</string>
+    <string name="hint_confirm_password">Нууц үгээ баталгаажуулах</string>
+    <string name="old_password_incorrect">Хуучин нууц үг алдаатай байна</string>
+    <string name="change_password_failed">Нууц үг солих амжилтгүй боллоо</string>
+    <string name="password_is_same">Шинэ хуучин нууц үг адилхан байна, дахин хийнэ үү</string>
+    <string name="change_password_success">Нууц үг амжилттай солигдлоо</string>
+    <string name="setting_my_message">миний мессеж</string>
+    <string name="del_all_text_message">устгах</string>
+    <string name="have_no_text_message">Мэдээ алга байна </string>
+    <!-- <string-array name="array_state_title"> <item>Бугуйн цагны цэнэг</item> <item>Байршил дагах</item> <item>Хүүхдээ дагах</item> <item>Бугуйн цаг салсан анхааруулга</item> <item>Доргилтын сэрэмжлүүлэг</item> <item>Аюулгүйн бүс</item> <item>Алхаа хэмжигч</item> </string-array> -->
+
+    <string-array name="sprin_sex">
+        <item>Эм</item>
+        <item>Эр</item>
+    </string-array>
+<string-array name="relations_array">
+        <item>Аав</item>
+        <item>Ээж</item>
+        <item>Өвөө</item>
+        <item>Эмээ</item>
+        <item>Авга ах</item>
+        <item>Авга эгч</item>
+        <item>Нагац ах</item>
+        <item>Нагац эгч</item>
+        <item>бусад</item>
+    </string-array>
+<string-array name="quite_time">
+        <item>Цаг 1: </item>
+        <item>Цаг 2: </item>
+        <item>Цаг 3: </item>
+        <item>Цаг 4: </item>
+    </string-array>
+<string-array name="week_text">
+        <item>Өдөр</item>
+        <item>Нэг</item>
+        <item>Хоёр</item>
+        <item>Гурав</item>
+        <item>Дөрөв</item>
+        <item>Тав</item>
+        <item>Зургаа</item>
+    </string-array>
+<string-array name="month_text">
+        <item>1 сар</item>
+        <item>2 сар</item>
+        <item>3 сар</item>
+        <item>4 сар</item>
+        <item>5 сар</item>
+        <item>6 сар</item>
+        <item>7 сар</item>
+        <item>8 сар</item>
+        <item>9 сар</item>
+        <item>10 сар</item>
+        <item>11 сар</item>
+        <item>12 сар</item>
+    </string-array>
+
+    <string name="text_fang_diu_qi">алдахаас хамгаалах хэрэгсэл</string>
+    <string name="text_bt_info">！Анхааруулга: Хол ойрын зай нь барилга байгууламж зэрэг орчин тойрны нөлөөллөөс хамаарч \n зөрүү гардаг</string>
+    <!-- <string name="toast_ble_watch_not_found">холбогдох бугуйн цаг олдсонгүй</string> -->
+
+    <string name="text_not_find_tracker">Холбогдох бугуйн цаг олдсонгүй</string>
+    <string name="text_set_time_err">Тохируулгын алдаа: эхлэх цаг болон дуусах цаг адил байж болохгүй, дахин тохиргоо хийнэ үү</string>
+    <string name="text_rsp_validation_code">Баталгаажуулах кодыг цаг руу илгээсэн байна, хүлээн авч шалгана уу</string>
+    <string name="text_query_location">Одоогийн байршлыг тодорхойлж байна, түр хүлээнэ үү ...</string>
+    <string name="notify_new_voice">Танд шинэ дуут мессеж ирлээ!</string>
+    <string name="notify_new_voice_msg">Сонсох!</string>
+    <string name="send_2d_code_dialog_info">Баталгаажуулах кодыг харахын тулд цагны үндсэн дэлгэцийг гаргана уу</string>
+    <string name="do_not_remaind">Дахин сануулахгүй байх</string>
+    <string name="find_pass">Нууц үгээ олох</string>
+    <string name="loading">Ачааллаж байна</string>
+    <string name="reset_psw">Нууц үгээ өөрчлөхийн тулд хүсэлтийг таны и-мэйл рүү илгээнэ, нууц үгээ өөрчлөх үү?</string>
+    <string name="sending_email">Нууц үг өөрчлөх хүсэлт илгээж байна</string>
+    <string name="reset_password_later">1 минутын дараа дахин оролдлого хийнэ үү</string>
+    <string name="tracker_not_exist">Обьект байхгүй байна</string>
+    <string name="reset_psw_ok">Анх бүртгүүлсэн и-мэйл хаягруу нууц үг өөрчлөх имэйл илгээсэн тул шалгаад дахин тохируулна уу</string>
+    <string name="clear_all_history_location">Бүх түүхийг устгах</string>
+    <string name="clear_all_his_loc_dialog">Та объектын бүх байршлын түүхийг устгахдаа итгэлтэй байна уу?</string>
+    <string name="not_on_line_fsk">оффлайн</string>
+    <string name="sim_manager">SIM карт тохируулга</string>
+    <string-array name="relations_array_tailand">
+        <item>Father</item>
+        <item>Ancle</item>
+        <item>Grandad</item>
+        <item>Mom</item>
+        <item>Aunt</item>
+        <item>Grandma</item>
+        <item>Baby</item>
+        <item>Pet</item>
+        <item>Toy</item>
+    </string-array>
+
+</resources>

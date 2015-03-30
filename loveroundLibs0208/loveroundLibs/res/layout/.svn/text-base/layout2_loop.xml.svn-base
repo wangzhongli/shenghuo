@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="422px"
+    android:layout_height="245px" >
+
+    <LinearLayout
+        android:layout_width="422px"
+        android:layout_height="245px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/background_2_loop"
+        android:orientation="horizontal" >
+
+        <com.cwtcn.kt.timepick.WheelView
+            android:id="@+id/bens_hour"
+            android:layout_width="155px"
+            android:layout_height="204px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50px" />
+
+        <com.cwtcn.kt.timepick.WheelView
+            android:id="@+id/bens_minute"
+            android:layout_width="155px"
+            android:layout_height="204px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="361px"
+        android:layout_height="70px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/background_2_2"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_bens_hours"
+            android:layout_width="155px"
+            android:layout_height="70px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20px"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_bens_mins"
+            android:layout_width="155px"
+            android:layout_height="70px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15px"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>

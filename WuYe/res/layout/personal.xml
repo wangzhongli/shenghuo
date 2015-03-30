@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <!-- <include layout="@layout/title_bar" /> -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/no_login"
+                android:layout_width="match_parent"
+                android:layout_height="120dip"
+                android:layout_gravity="center"
+                android:background="@drawable/personal_bg"
+                android:padding="@dimen/activity_margin"
+                android:visibility="gone" >
+
+                <com.e1858.widget.CircularImage
+                    android:id="@+id/image"
+                    android:layout_width="80.0dp"
+                    android:layout_height="80.0dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/personal_head_icon" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/activity_margin_top"
+                    android:layout_toRightOf="@id/image"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/login_btn"
+                        style="@style/wuye_cm_button"
+                        android:layout_width="80dip"
+                        android:layout_height="48dip"
+                        android:text="@string/text_login" />
+
+                    <Button
+                        android:id="@+id/regist_btn"
+                        style="@style/wuye_cm_button"
+                        android:layout_width="80dip"
+                        android:layout_height="48dip"
+                        android:layout_marginLeft="@dimen/activity_margin"
+                        android:text="@string/text_registe" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/has_login"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/personal_bg"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/personal_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_margin_top"
+                    android:layout_marginLeft="@dimen/activity_margin"
+                    android:layout_marginRight="@dimen/activity_margin"
+                    android:layout_marginTop="@dimen/activity_margin_top" >
+
+                    <ImageView
+                        android:id="@+id/arrow_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/my_arrow_right"
+                        android:contentDescription="@string/app_name" />
+
+                    <!--
+                         <ImageView
+                        android:id="@id/head_portrait"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/head_portrait_icon"
+                        android:contentDescription="@string/app_name" />
+                    -->
+
+                    <com.e1858.widget.CircularImage
+                        android:id="@id/head_portrait"
+                        android:layout_width="80.0dp"
+                        android:layout_height="80.0dp"
+                        android:background="@drawable/personal_head_icon" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_toLeftOf="@id/arrow_image"
+                        android:layout_toRightOf="@id/head_portrait"
+                        android:orientation="vertical"
+                        android:padding="@dimen/activity_margin" >
+
+                        <TextView
+                            android:id="@id/nickname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/title_textSize" />
+
+                        <TextView
+                            android:id="@id/house_info"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/bottom_tab_padding_drawable"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/body_textSize" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/my_notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/listview_item_background"
+                android:padding="@dimen/activity_margin" >
+
+                <TextView
+                    style="@style/textview_color_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:drawableLeft="@drawable/my_notice_icon"
+                    android:drawablePadding="@dimen/activity_padding"
+                    android:gravity="center"
+                    android:text="@string/text_my_notice" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/arrow_right"
+                    android:contentDescription="@string/app_name" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+
+            <RelativeLayout
+                android:id="@+id/my_maintenance_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/listview_item_background"
+                android:padding="@dimen/activity_margin" >
+
+                <TextView
+                    style="@style/textview_color_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:drawableLeft="@drawable/my_maintenance_search_icon"
+                    android:drawablePadding="@dimen/activity_padding"
+                    android:gravity="center"
+                    android:text="@string/text_my_maintenance_search" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/arrow_right"
+                    android:contentDescription="@string/app_name" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+
+            <RelativeLayout
+                android:id="@+id/my_bill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/listview_item_background"
+                android:padding="@dimen/activity_margin" >
+
+                <TextView
+                    style="@style/textview_color_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:drawableLeft="@drawable/my_bill_icon"
+                    android:drawablePadding="@dimen/activity_padding"
+                    android:gravity="center"
+                    android:text="@string/text_my_bill" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/arrow_right"
+                    android:contentDescription="@string/app_name" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+
+            <RelativeLayout
+                android:id="@+id/my_commission"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/listview_item_background"
+                android:padding="@dimen/activity_margin" >
+
+                <TextView
+                    style="@style/textview_color_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:drawableLeft="@drawable/my_commission_icon"
+                    android:drawablePadding="@dimen/activity_padding"
+                    android:gravity="center"
+                    android:text="@string/text_my_commission" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/arrow_right"
+                    android:contentDescription="@string/app_name" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+
+            <RelativeLayout
+                android:id="@+id/my_complaint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/listview_item_background"
+                android:padding="@dimen/activity_margin" >
+
+                <TextView
+                    style="@style/textview_color_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:drawableLeft="@drawable/my_complaint_icon"
+                    android:drawablePadding="@dimen/activity_padding"
+                    android:gravity="center"
+                    android:text="@string/text_my_complaint" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/arrow_right"
+                    android:contentDescription="@string/app_name" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+
+            <RelativeLayout
+                android:id="@+id/my_topic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/listview_item_background"
+                android:padding="@dimen/activity_margin" >
+
+                <TextView
+                    style="@style/textview_color_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:drawableLeft="@drawable/my_topic_icon"
+                    android:drawablePadding="@dimen/activity_padding"
+                    android:gravity="center"
+                    android:text="@string/text_my_topic" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/arrow_right"
+                    android:contentDescription="@string/app_name" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+
+            <RelativeLayout
+                android:id="@+id/my_convenience_record"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/listview_item_background"
+                android:padding="@dimen/activity_margin" >
+
+                <TextView
+                    style="@style/textview_color_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:drawableLeft="@drawable/my_convenience_icon"
+                    android:drawablePadding="@dimen/activity_padding"
+                    android:gravity="center"
+                    android:text="我的便民记录" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/arrow_right"
+                    android:contentDescription="@string/app_name" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+
+            <RelativeLayout
+                android:id="@+id/my_shopping"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/listview_item_background"
+                android:padding="@dimen/activity_margin" >
+
+                <TextView
+                    style="@style/textview_color_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:drawableLeft="@drawable/my_shopping_icon"
+                    android:drawablePadding="@dimen/activity_padding"
+                    android:gravity="center"
+                    android:text="我的商城" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/arrow_right"
+                    android:contentDescription="@string/app_name" />
+            </RelativeLayout>
+<View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+
+            <RelativeLayout
+                android:id="@+id/my_point"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/listview_item_background"
+                android:padding="@dimen/activity_margin" >
+
+                <TextView
+                    style="@style/textview_color_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:drawableLeft="@drawable/my_point"
+                    android:drawablePadding="@dimen/activity_padding"
+                    android:gravity="center"
+                    android:text="我的积分" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/arrow_right"
+                    android:contentDescription="@string/app_name" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+            <!--
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_margin_top"
+                android:background="#ffefeeee" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_background" />
+
+            <RelativeLayout
+                android:id="@+id/my_investment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/listview_item_background"
+                android:padding="@dimen/activity_margin" >
+
+                <TextView
+                    style="@style/textview_color_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:drawableLeft="@drawable/my_investment_icon"
+                    android:drawablePadding="@dimen/activity_padding"
+                    android:gravity="center"
+                    android:text="@string/text_my_investment" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/arrow_right"
+                    android:contentDescription="@string/app_name" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_background" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_margin_top"
+                android:background="#ffefeeee" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/line_background" />
+
+            <RelativeLayout
+                android:id="@+id/my_shopping"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/listview_item_background"
+                android:padding="@dimen/activity_margin" >
+
+                <TextView
+                    style="@style/textview_color_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:drawableLeft="@drawable/my_shopping_icon"
+                    android:drawablePadding="@dimen/activity_padding"
+                    android:gravity="center"
+                    android:text="@string/text_my_shopping" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/arrow_right"
+                    android:contentDescription="@string/app_name" />
+            </RelativeLayout>
+            -->
+
+            <Button
+                android:id="@+id/login_out_btn"
+                style="@style/button_color_font"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_48"
+                android:layout_marginBottom="@dimen/activity_margin"
+                android:layout_marginLeft="@dimen/activity_margin"
+                android:layout_marginRight="@dimen/activity_margin"
+                android:layout_marginTop="@dimen/activity_margin_top"
+                android:background="@drawable/wuye_cm_sl_button"
+                android:text="@string/text_login_out" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

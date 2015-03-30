@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@id/item_title"
+                style="@style/textview_color_font"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_margin"
+                android:layout_marginRight="@dimen/activity_margin"
+                android:padding="@dimen/activity_margin" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+
+            <LinearLayout
+                android:id="@+id/exit_pic_lin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/bottom_tab_padding_up"
+                android:visibility="gone" >
+
+                <com.hg.android.widget.ImagesGridView
+                    android:id="@id/gridview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/activity_margin"
+                    android:layout_marginRight="@dimen/activity_margin"
+                    android:cacheColorHint="#00000000"
+                    android:horizontalSpacing="@dimen/bottom_tab_padding_up"
+                    android:numColumns="3"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="@dimen/bottom_tab_padding_up" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="@dimen/bottom_tab_padding_up"
+                    android:background="@color/line_background" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_margin"
+                android:layout_marginRight="@dimen/activity_margin" >
+
+                <TextView
+                    android:id="@+id/text1"
+                    style="@style/textview_color_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:drawableLeft="@drawable/map_address_icon"
+                    android:drawablePadding="@dimen/activity_margin"
+                    android:text="@string/text_item_address" />
+
+                <TextView
+                    android:id="@+id/item_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@id/text1"
+                    android:padding="@dimen/activity_margin"
+                    android:textColor="@color/body_textColor"
+                    android:textSize="@dimen/title_textSize" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+
+            <RelativeLayout
+                android:id="@+id/call_relative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_margin"
+                android:layout_marginRight="@dimen/activity_margin" >
+
+                <TextView
+                    android:id="@+id/text2"
+                    style="@style/textview_color_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:drawableLeft="@drawable/call_icon_normal"
+                    android:drawablePadding="@dimen/activity_margin"
+                    android:text="@string/text_item_phone" />
+
+                <TextView
+                    android:id="@+id/item_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@id/text2"
+                    android:padding="@dimen/activity_margin"
+                    android:textColor="@color/body_textColor"
+                    android:textSize="@dimen/title_textSize" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+
+            <RelativeLayout
+                android:id="@+id/map_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_margin"
+                android:layout_marginRight="@dimen/activity_margin" >
+
+                <TextView
+                    android:id="@+id/text3"
+                    style="@style/textview_color_font"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:drawableLeft="@drawable/time_icon"
+                    android:drawablePadding="@dimen/activity_margin"
+                    android:text="@string/text_business_hours" />
+
+                <TextView
+                    android:id="@+id/item_business_hours"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@id/text3"
+                    android:padding="@dimen/activity_margin"
+                    android:textColor="@color/body_textColor"
+                    android:textSize="@dimen/title_textSize" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_margin_top" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+
+            <TextView
+                style="@style/textview_color_font"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_margin"
+                android:layout_marginRight="@dimen/activity_margin"
+                android:padding="@dimen/activity_margin"
+                android:text="@string/text_introduction" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+
+            <TextView
+                android:id="@id/item_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_margin"
+                android:layout_marginRight="@dimen/activity_margin"
+                android:padding="@dimen/activity_margin"
+                android:textColor="@color/body_textColor"
+                android:textSize="@dimen/title_textSize" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

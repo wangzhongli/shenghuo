@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dip"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/mall_recommend_pic_headicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dip" >
+
+        <com.e1858.common.widget.CircularImage
+            android:id="@+id/head_portrait"
+            android:layout_width="40.0dp"
+            android:layout_height="40.0dp"
+            android:background="@drawable/personal_head_icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="4dip"
+        android:layout_toRightOf="@id/mall_recommend_pic_headicon"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/mall_tv_recomm_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#434343"
+            android:gravity="center_vertical"
+            android:text="默默" />
+
+        <TextView
+            android:id="@+id/mall_tv_recomm_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#aaaaaa"
+            android:gravity="center_vertical"
+            android:text="2014-12-05 12:37" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@color/transparent"
+        android:layout_marginRight="5dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/mall_ll_recomm_heart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/mall_iv_recomm_heart"
+                android:layout_width="24dip"
+                android:layout_height="24dip"
+                android:background="@drawable/mall_recommend_info_heart"
+                android:scaleType="center" />
+
+            <TextView
+                android:id="@+id/mall_tv_recomm_heart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mall_ll_recomm_comm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginLeft="10dip"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/mall_iv_recomm_comm"
+                android:layout_width="24dip"
+                android:layout_height="24dip"
+                android:background="@drawable/mall_recommend_info_comm" />
+
+            <TextView
+                android:id="@+id/mall_tv_recomm_comm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="55"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

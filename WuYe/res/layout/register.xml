@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@color/background"
+    android:orientation="vertical" >
+    <include layout="@layout/title_bar" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/activity_margin_top"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:layout_marginRight="@dimen/activity_margin"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/comment_bg"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimen_48"
+                        android:padding="@dimen/activity_margin" >
+
+                        <TextView
+                            android:id="@+id/text"
+                            style="@style/textview_color_font"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:gravity="left"
+                            android:paddingRight="@dimen/activity_margin"
+                            android:text="@string/text_phonenumber" />
+
+                        <com.e1858.widget.ClearEditText
+                            android:id="@id/input_phone"
+                            style="@style/edittext_color_font"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:layout_toRightOf="@id/text"
+                            android:layout_marginLeft="@dimen/activity_margin"
+                            android:layout_centerInParent="true"
+                            android:hint="仅限大陆手机号码"
+                            android:inputType="text" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/line_background" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimen_48" >
+                        <TextView
+                            android:id="@+id/text2"
+                            style="@style/textview_color_font"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:gravity="left"
+                            android:layout_centerInParent="true"
+                            android:paddingLeft="@dimen/activity_margin"
+                            android:paddingRight="@dimen/activity_margin"
+                            android:text="@string/text_verify" />
+
+                        <EditText
+                            android:id="@id/input_verify"
+                            style="@style/edittext_color_font"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/text2"
+                            android:layout_centerInParent="true"
+                            android:background="@android:color/transparent"
+                            android:layout_marginLeft="@dimen/activity_margin"
+                            android:hint="@string/hint_verify"
+                            android:inputType="text" />
+
+                        <Button
+                            android:id="@id/get_verify_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/dimen_40"
+                            android:layout_alignParentRight="true"
+                            android:padding="@dimen/activity_margin"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/btn_background_select"
+                            android:layout_marginRight="@dimen/activity_margin"
+                            android:text="@string/text_getVerify_btn"
+                            android:textColor="@color/white"
+                            android:textSize="15sp" />
+
+                 	</RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_48"
+                    android:layout_marginTop="@dimen/activity_margin"
+                    android:padding="@dimen/activity_margin"
+                    android:background="@drawable/comment_bg" >
+                    <TextView
+                        android:id="@+id/text3"
+                        style="@style/textview_color_font"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="true"
+                        android:gravity="left"
+                        android:paddingRight="@dimen/activity_margin"
+                        android:text="@string/text_password" />
+
+                    <com.e1858.widget.ClearEditText
+                        android:id="@id/input_password"
+                        style="@style/edittext_color_font"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_toRightOf="@id/text3"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="@dimen/activity_margin"
+                        android:hint="@string/hint_register_password"
+                        android:inputType="textPassword" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/activity_margin" >
+                <CheckBox
+                    android:id="@id/agreement_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:button="@drawable/checkbox_background_select"
+                    android:layout_centerInParent="true"
+                    android:checked="true" />
+                 <TextView
+                    android:id="@+id/agreement"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@id/agreement_checkbox"
+                    android:text="@string/text_agreement"
+                    android:textColor="@color/notes_textColor"
+                    android:textSize="@dimen/body_textSize" />
+                <TextView
+                    android:id="@+id/agreement_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@id/agreement"
+                    android:text="@string/text_agreement_protocol"
+                    android:textColor="@color/titleBar_background"
+                    android:textSize="@dimen/body_textSize" />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_margin"
+                android:orientation="vertical">
+                <Button
+                    android:id="@id/register_btn"
+                    style="@style/button_color_font"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_48"
+                    android:background="@drawable/btn_background_select"
+                    android:text="@string/text_register" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

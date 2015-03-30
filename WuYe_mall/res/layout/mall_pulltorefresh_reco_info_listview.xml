@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/mall_listview_bg"
+        android:cacheColorHint="@color/transparent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dip"
+        android:background="#f2f2f2"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal"
+         >
+
+        <EditText
+            android:id="@+id/mall_reco_info_et_signin"
+            android:layout_width="250dip"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/mall_reco_info_ib_send"
+            android:hint="输入评论"
+            android:paddingLeft="8dip" />
+
+        <ImageButton
+            android:id="@+id/mall_reco_info_ib_send"
+            android:layout_width="36dip"
+            android:layout_height="36dip"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/mall_comm_send_btn_bg"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:onClick="addNewComm"
+            android:scaleType="center" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/map_add_obj_press_" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/map_add_obj_normal_" android:state_pressed="false"></item>
+
+</selector>

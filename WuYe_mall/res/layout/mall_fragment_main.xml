@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mall_bg"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.hg.android.widget.ScaleFrameLayout
+            xmlns:custom="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            custom:heightScale="0.5625" >
+
+            <com.hg.android.widget.ImagePagerLayout
+                android:id="@+id/imagePagerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+        </com.hg.android.widget.ScaleFrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <include
+                android:id="@+id/imageButton_0"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                layout="@layout/mall_imagebutton_v" />
+
+            <include
+                android:id="@+id/imageButton_1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                layout="@layout/mall_imagebutton_v" />
+
+            <include
+                android:id="@+id/imageButton_2"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                layout="@layout/mall_imagebutton_v" />
+
+            <include
+                android:id="@+id/imageButton_3"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                layout="@layout/mall_imagebutton_v" />
+        </LinearLayout>
+
+        <com.hg.android.widget.MyListView
+            android:id="@+id/listView_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@color/white"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@color/mall_bg"
+            android:dividerHeight="10dip" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@color/white"
+            android:paddingLeft="8dip"
+            android:gravity="center_vertical"
+            android:minHeight="40dip"
+            android:text="更多商品"
+            android:textColor="#ff434343"
+            android:textSize="14sp" />
+
+        <include layout="@layout/mall_sep_h" />
+
+        <com.hg.android.widget.MyGridView
+            android:id="@+id/gridView_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightgray"
+            android:cacheColorHint="@color/transparent"
+            android:horizontalSpacing="1px"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="1px" />
+    </LinearLayout>
+
+</ScrollView>

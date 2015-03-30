@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="drop_down_list_header_font_color">#000000</color>
+    <color name="drop_down_list_header_second_font_color">#000000</color>
+    <color name="drop_down_list_footer_font_color">#000000</color>
+    <color name="light_green_btn_color">#ff00EDB4</color>
+    <color name="night_light_green_btn_color">#ff00D6A3</color>
+    <color name="white_color">#ffffffff</color>
+    <color name="background">#fff8f8f8</color>
+    <color name="body_bar">#ffeeeeee</color>
+    <color name="navigation_textColor">#ffffffff</color>
+    <color name="navigation2_textColor2">#ff434343</color>
+    <color name="title_textColor">#ff000000</color>
+    <color name="body_textColor">#ff3a3a3a</color>
+    <color name="notes_textColor">#ffaaaaaa</color>
+    <color name="warning_textColor">#ffff6600</color>
+<!--     <color name="titleBar_background">#ff49aa48</color> -->
+    <color name="titleBar_background">#ffe6e7e7</color>
+    <color name="bottomBar_background">#fff2f2f2</color>
+    <color name="bottomBar_night_background">#ff1f1d1f</color>
+    <color name="line_background">#ffe0e0e0</color>
+    <color name="frame_background">#ffe0e0e0</color>
+    <color name="bottom_bar_textcolor_normal">#ff797979</color>
+<!--     <color name="bottom_bar_textcolor_pressed">#ff49aa48</color> -->
+<!--     <color name="btn_bg_color">#ff49aa48</color> -->
+    <color name="btn_bg_color_pressed">#ff118f2c</color>
+    <color name="btn_bg_color_enalbed">#ffa0a0a0</color>
+    <color name="bottom_bar_textcolor_pressed">@color/red_color</color>
+    <color name="btn_bg_color">#ff49aa48</color>
+    <color name="btn_cancle_bg_color">#ffa0a0a0</color>
+    <color name="btn_cancle_bg_color_pressed">#ff8a8a8a</color>
+    <color name="btn_exit_bg_color">#fff84803</color>
+    <color name="btn_exit_bg_color_pressed">#ffeb2404</color>
+    <color name="has_read">#ffe7eaea</color>
+    <color name="home_fast_cmd_pressed">#ffededed</color>
+    <color name="dialog_background">#ffe7eaea</color>
+    <color name="select_pic_btn_normal">#ffffffff</color>
+    <color name="select_pic_btn_pressed">#ffd3d3d3</color>
+    <color name="btn_person_normal">#ff93ca52</color>
+    <color name="btn_person_pressed">#ff89c997</color>
+    <color name="maintenance_reply_color">#ffff6600</color>
+    <color name="summary_payment">#fffe7f40</color>
+    <color name="kangel_btn_normal">#fff84803</color>
+    <color name="kangel_btn_pressed">#ffeb2404</color>
+    <color name="starrredcontacts_search_text_color">#55595e</color>
+    <color name="starrredcontacts_search_textHint_color">#8e8f90</color>
+
+</resources>

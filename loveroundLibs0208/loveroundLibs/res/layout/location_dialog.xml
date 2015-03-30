@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialog_background"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ld_location"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/current_location_icon"
+        android:drawablePadding="@dimen/loging_margin_default_larger"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:text="@string/get_current_location"
+        android:textColor="@color/text_black"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/undline_height"
+        android:layout_marginLeft="@dimen/loging_margin"
+        android:layout_marginRight="@dimen/loging_margin"
+        android:background="@color/textview_bg" />
+
+    <TextView
+        android:id="@+id/ld_history_location"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/history_location_icon"
+        android:drawablePadding="@dimen/loging_margin_default_larger"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:text="@string/location_through_base_station"
+        android:textColor="@color/text_black"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/undline_height"
+        android:layout_marginLeft="@dimen/loging_margin"
+        android:layout_marginRight="@dimen/loging_margin"
+        android:background="@color/textview_bg" />
+
+    <TextView
+        android:id="@+id/ld_all_location"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/all_object_location_icon"
+        android:drawablePadding="@dimen/loging_margin_default_larger"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:text="@string/all_objects_location"
+        android:textColor="@color/text_black"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/undline_height"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="@dimen/loging_margin"
+        android:layout_marginRight="@dimen/loging_margin"
+        android:background="@color/textview_bg" />
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listview_item_background"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+     >
+
+   <!--  <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/arrow_right"
+        android:contentDescription="@string/app_name" /> -->
+
+    <TextView
+        android:id="@id/item_title"
+       	style="@style/textview_color_font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="@dimen/activity_padding"
+        android:ellipsize="end"
+        android:singleLine="true"
+        />
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/arrow"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/item_title"
+        android:layout_marginTop="@dimen/activity_margin"
+        >
+        <TextView 
+            android:id="@+id/topic_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/notes_color_font"
+            android:layout_alignParentLeft="true"
+            android:drawableLeft="@drawable/time_icon"
+            android:drawablePadding="5dip"
+            />
+         <TextView 
+            android:id="@+id/topic_comment_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/notes_color_font"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/resp_icon"
+            android:drawablePadding="5dip"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

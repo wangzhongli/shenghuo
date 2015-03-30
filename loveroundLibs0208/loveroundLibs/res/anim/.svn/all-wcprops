@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/anim
+END
+round_loading.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/anim/round_loading.xml
+END
+fade_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/anim/fade_in.xml
+END
+fade_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/anim/fade_out.xml
+END
+fragment_slide_right_exit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/anim/fragment_slide_right_exit.xml
+END
+fragment_slide_left_enter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/anim/fragment_slide_left_enter.xml
+END
+zoomin.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/anim/zoomin.xml
+END
+zoomout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/anim/zoomout.xml
+END
+anim_frame.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/KT01_APP/!svn/ver/1002/lovearound_kt01s_0204/res/anim/anim_frame.xml
+END

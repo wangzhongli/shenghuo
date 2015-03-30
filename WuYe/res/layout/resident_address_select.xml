@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/textview_color_font"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/activity_margin"
+                android:text="@string/text_set_resident_address" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_48"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/activity_margin"
+                android:paddingRight="@dimen/activity_margin" >
+
+                <TextView
+                    style="@style/textview_color_font"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/text_select_building" />
+
+                <TextView
+                    android:id="@id/building_spinner"
+                    style="@style/edittext_color_font"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:drawablePadding="@dimen/activity_margin"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:gravity="right"
+                    android:hint="@string/hint_select_building" />
+                <!--
+                <Spinner
+                    android:id="@id/building_spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spinner_hasb_background"
+                    android:layout_weight="4" />                -->
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_48"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/activity_margin"
+                android:paddingRight="@dimen/activity_margin" >
+
+                <TextView
+                    style="@style/textview_color_font"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/text_select_unit" />
+
+                <TextView
+                    android:id="@id/unit_spinner"
+                    style="@style/edittext_color_font"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:drawablePadding="@dimen/activity_margin"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:gravity="right"
+                    android:hint="@string/hint_select_unit" />
+                <!--
+                     <Spinner
+                    android:id="@id/unit_spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spinner_hasb_background"
+                    android:layout_weight="4" />                -->
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_48"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/activity_margin"
+                android:paddingRight="@dimen/activity_margin" >
+
+                <TextView
+                    style="@style/textview_color_font"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/text_select_floor" />
+
+                <TextView
+                    android:id="@id/floor_spinner"
+                    style="@style/edittext_color_font"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:drawablePadding="@dimen/activity_margin"
+                    android:drawableRight="@drawable/arrow_right"
+                    android:gravity="right"
+                    android:hint="@string/hint_select_floor" />
+                <!--
+                     <Spinner
+                    android:id="@id/floor_spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spinner_hasb_background"
+                    android:layout_weight="4" />                -->
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_48"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/activity_margin"
+                android:paddingRight="@dimen/activity_margin" >
+
+                <TextView
+                    style="@style/textview_color_font"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/text_select_house_number" />
+
+                <EditText
+                    android:id="@id/input_houseNumber"
+                    style="@style/edittext_color_font"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_margin_top"
+                    android:layout_weight="3"
+                    android:background="@android:color/transparent"
+                    android:gravity="right"
+                    android:hint="@string/hint_house_number" />
+            </LinearLayout>
+                        <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+                        
+            <TextView
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:padding="@dimen/activity_padding"
+			    android:layout_marginTop="1dp"
+			    android:textSize="@dimen/title_textSize"
+			    android:textColor="@color/notes_textColor"
+			    android:text="房号即是您在本小区的门牌号，如203，1023或东户，西户字样"
+			    />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_48"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/activity_margin"
+                android:paddingRight="@dimen/activity_margin" >
+
+                <TextView
+                    style="@style/textview_color_font"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/text_verify_colon" />
+
+                <EditText
+                    android:id="@id/input_verify"
+                    style="@style/edittext_color_font"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_margin_top"
+                    android:layout_weight="3"
+                    android:background="@android:color/transparent"
+                    android:gravity="right"
+                    android:hint="@string/hint_verify" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/line_background" />
+			<TextView
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:padding="@dimen/activity_padding"
+			    android:layout_marginTop="5dp"
+			    android:textSize="@dimen/title_textSize"
+			    android:textColor="@color/notes_textColor"
+			    android:text="@string/text__house_verify_notes"
+			    />
+            <Button
+                android:id="@id/ok_btn"
+                style="@style/button_color_font"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_48"
+                android:layout_marginTop="16dip"
+                android:layout_marginBottom="16dip"
+                android:background="@drawable/btn_background_select"
+                android:layout_marginRight="@dimen/activity_padding"
+                android:layout_marginLeft="@dimen/activity_padding"
+                android:text="@string/text_ok" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

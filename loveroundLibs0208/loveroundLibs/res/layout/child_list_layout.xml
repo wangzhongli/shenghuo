@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8"
+    android:orientation="vertical" >
+
+    <RelativeLayout 
+        style="@style/title_style"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#e6e7e7"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/line_manager_obj"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="#e6e7e7"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/top_back_btn1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line_manager_obj_right"
+            android:layout_width="74dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="#e6e7e7"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:text="@string/_add"
+                android:gravity="center"
+                android:textColor="#434343"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <!--
+        <TextView
+            android:id="@+id/cll_title"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/text_click"
+            android:drawableLeft="@drawable/action_back"
+            android:drawablePadding="@dimen/loging_margin_default"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/loging_margin_small"
+            android:paddingRight="@dimen/loging_margin"
+            android:text="@string/object_list"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/is_add"
+            android:layout_width="@dimen/title_btn_1_width"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/title_btn_1_margin_right"
+            android:background="@drawable/text_action_click"
+            android:text="@string/_add" />
+        -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/object_list"
+            android:textColor="#434343"
+            android:textSize="24sp" />
+    </RelativeLayout>
+<!-- android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" -->
+    <ListView
+        android:id="@+id/is_list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="#d80c18"
+        android:dividerHeight="1dp" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mall_bg"
+    android:orientation="vertical" >
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:background="@color/mall_listview_bg"
+        android:cacheColorHint="@color/transparent" />
+
+    <include layout="@layout/mall_sep_h" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:padding="8dip" >
+
+        <CheckBox
+            android:id="@+id/checkBox_selectAll"
+            android:layout_width="wrap_content"
+            android:layout_height="25dip"
+            android:text="全选" />
+
+        <TextView
+            android:id="@+id/textView_amount"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="right"
+            android:layout_marginRight="4dip"
+            android:textColor="#fff84803"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/button_submit"
+            style="@style/mall_bottom_bar_button"
+            android:background="@drawable/mall_sl_button_red"
+            android:drawableLeft="@drawable/mall_ic_cart_calc"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

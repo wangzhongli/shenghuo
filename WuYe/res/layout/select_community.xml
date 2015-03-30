@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar" />
+
+    <include layout="@layout/search_editor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@id/about"
+            android:padding="16dip"
+            style="@style/body_color_font"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/activity_margin_top"
+            android:visibility="gone" />
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@+id/communtity_listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/mall_listview_bg"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@color/line_background"
+            android:dividerHeight="0.5dp"
+            android:scrollbars="none" />
+        <ListView
+            android:id="@+id/search_listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/mall_listview_bg"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@color/line_background"
+            android:dividerHeight="0.5dp"
+            android:visibility="gone"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+</LinearLayout>

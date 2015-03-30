@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/orderProductCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/imageView_product"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_marginRight="4dip"
+        android:background="@color/white"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView_title"
+            style="@style/mall_card_product_title"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:maxLines="2" />
+
+        <TextView
+            android:id="@+id/textView_price"
+            style="@style/mall_card_product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lightgray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dip"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView_quantity"
+                style="@style/mall_card_product_price"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black" />
+
+            <TextView
+                style="@style/mall_card_product_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="小计:" />
+
+            <TextView
+                android:id="@+id/textView_amount"
+                style="@style/mall_card_product_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/button_refund"
+                style="@style/mall_card_bar_button"
+                android:layout_marginLeft="4dip"
+                android:background="@drawable/mall_sl_button_red"
+                android:text="退/换货"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

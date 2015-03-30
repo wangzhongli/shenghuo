@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/home_fast_shop_gridview_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+     <TextView
+        android:id="@id/fast_grid_textview"
+        android:layout_width="106dp"
+        android:layout_height="219dp"
+        android:gravity="center"
+        style="@style/body_color_font"
+        />
+</LinearLayout>

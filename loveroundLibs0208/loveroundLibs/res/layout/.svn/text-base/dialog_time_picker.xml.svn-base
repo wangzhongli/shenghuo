@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_1_bg"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dcon_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/loging_margin_default_larger"
+        android:text="@string/confirmation_time_picker"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/text_black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/undline_height"
+        android:layout_marginLeft="@dimen/loging_margin_default_larger"
+        android:layout_marginRight="@dimen/loging_margin_default_larger"
+        android:background="@color/textview_bg" />
+
+    <com.cwtcn.kt.ui.TimeView
+        android:id="@+id/layout_time"
+        android:layout_width="422px"
+        android:layout_height="245px"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/loging_margin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/loging_margin_default"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/dcon_ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_btn_selector"
+            android:text="@string/btn_ok" />
+
+        <Button
+            android:id="@+id/dcon_can"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/dialog_btn_selector"
+            android:text="@string/btn_can" />
+    </LinearLayout>
+
+</LinearLayout>

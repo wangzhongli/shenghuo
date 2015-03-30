@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:id="@+id/majorContainer"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="match_parent" >
+        <fragment
+            android:id="@+id/fragment_major"
+            android:name="com.e1858.mall.product.MallCategoryMajorFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/minorContainer"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="3" >
+    </FrameLayout>
+
+</LinearLayout>

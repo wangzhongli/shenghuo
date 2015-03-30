@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:orientation="vertical" >
+
+        <include layout="@layout/title_bar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/comment_bg"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/activity_margin" >
+
+                    <TextView
+                        style="@style/textview_color_font"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_house_info" />
+
+                    <TextView
+                        android:id="@id/house_info"
+                        style="@style/edittext_color_font"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:drawablePadding="@dimen/activity_margin"
+                        android:drawableRight="@drawable/arrow_right"
+                        android:gravity="right"
+                        android:hint="@string/text_set_resident_address" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/line_background" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_48"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/activity_margin" >
+
+                    <TextView
+                        style="@style/textview_color_font"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/text_phone_info" />
+
+                    <EditText
+                        android:id="@id/input_phone"
+                        style="@style/edittext_color_font"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/activity_margin_top"
+                        android:layout_weight="2"
+                        android:background="@android:color/transparent"
+                        android:gravity="right"
+                        android:hint="@string/hint_phone_info"
+                        android:inputType="phone" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/line_background" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_48"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/activity_margin" >
+
+                    <TextView
+                        style="@style/textview_color_font"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="联系人:" />
+
+                    <EditText
+                        android:id="@+id/editText_name"
+                        style="@style/edittext_color_font"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/activity_margin_top"
+                        android:layout_weight="2"
+                        android:background="@android:color/transparent"
+                        android:gravity="right"
+                        android:hint="请输入您的名字" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_margin"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@id/input_complaint"
+                    style="@style/edittext_color_font"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@drawable/edittext_background"
+                    android:gravity="top|left"
+                    android:padding="@dimen/activity_margin"
+                    android:hint="@string/hint_input_complaint"
+                    android:inputType="textMultiLine" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/activity_margin" >
+
+                    <CheckBox
+                        android:id="@+id/checkBox_anonymous"
+                        style="@style/textview_color_font"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="true"
+                        android:text="@string/text_anonymous" />
+                </RelativeLayout>
+
+                <Button
+                    android:id="@id/ok_btn"
+                    style="@style/button_color_font"
+                    android:layout_margin="@dimen/activity_margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_48"
+                    android:background="@drawable/btn_background_select"
+                    android:text="@string/text_save" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

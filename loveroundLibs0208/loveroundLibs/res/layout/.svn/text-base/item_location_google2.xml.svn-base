@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cwtcn.kt.ui.RightSideBar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/righet_sidebar"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="@color/common_title_bg_colors"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:layout_width="74dp"
+                android:layout_height="match_parent" >
+
+                <ImageView
+                    android:id="@+id/is_im_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/common_title_bg_colors" />
+
+                <com.cwtcn.kt.utils.BatteryView
+                    android:id="@+id/bv_top_show_current_battery"
+                    android:layout_width="match_parent"
+                    android:layout_height="13dp"
+                    android:layout_gravity="bottom" >
+                </com.cwtcn.kt.utils.BatteryView>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/common_title_bg_colors"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/is_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/text_white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/is_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp"
+                        android:maxLines="2"
+                        android:textColor="@color/text_white"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/is_default"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/common_title_bg"
+                    android:gravity="center"
+                    android:text="@string/default_address"
+                    android:textColor="@color/text_white"
+                    android:textSize="20sp"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/is_show_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:background="@drawable/common_title_bg"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/cp_message"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/loging_margin_default_larger"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:textSize="16sp" />
+
+                    <com.cwtcn.kt.ui.ProgressBar
+                        android:id="@+id/cp_press"
+                        android:layout_width="match_parent"
+                        android:layout_height="26dp"
+                        android:background="#80000000" >
+                    </com.cwtcn.kt.ui.ProgressBar>
+                </LinearLayout>
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="74dp"
+                android:layout_height="match_parent"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/is_right_sidebar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/common_title_bg_colors" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/background_light" >
+
+            <!-- 百度地图第一层 -->
+
+            <FrameLayout
+                android:id="@+id/isg_MapRoot"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </FrameLayout>
+
+            <!-- 放大缩小、记步控件第二层 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp" >
+
+                <TextView
+                    android:id="@+id/tv_map_show_pedometer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/map_pedometer_count"
+                    android:gravity="right|center_vertical"
+                    android:paddingRight="20dp"
+                    android:shadowColor="#ffffff"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="1"
+                    android:textSize="18dp" />
+
+                <LinearLayout
+                    android:id="@+id/lin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginRight="15dp"
+                    android:orientation="horizontal" >
+
+                    <ImageButton
+                        android:id="@+id/ib_map_fangda"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/map_zoon_fangda_selector" />
+
+                    <ImageButton
+                        android:id="@+id/ib_map_suoxiao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/map_zoon_suoxiao_selector" />
+                </LinearLayout>
+
+                <!--
+                <ScrollView
+                    android:id="@+id/sl_map_show_funshion_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_above="@id/lin"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="8dp"
+                        android:paddingTop="10dp" >
+
+                        <ImageButton
+                            android:id="@+id/ib_map_location"
+                            style="@style/map_right_icon_style"
+                            android:background="@drawable/map_current_location_selector"
+                            android:visibility="visible" />
+
+                        <ImageButton
+                            android:id="@+id/ib_map_recall"
+                            style="@style/map_right_icon_style"
+                            android:background="@drawable/map_recall_listion_selector" />
+
+                        <ImageButton
+                            android:id="@+id/ib_map_history"
+                            style="@style/map_right_icon_style"
+                            android:background="@drawable/map_history_location_selector" />
+
+                        <ImageButton
+                            android:id="@+id/ib_map_love"
+                            style="@style/map_right_icon_style"
+                            android:background="@drawable/map_love_circle_selector" />
+
+                        <ImageButton
+                            android:id="@+id/ib_map_fall"
+                            style="@style/map_right_icon_style"
+                            android:background="@drawable/map_fall_sos_selector" />
+
+                        <ImageButton
+                            android:id="@+id/ib_map_parent"
+                            style="@style/map_right_icon_style"
+                            android:background="@drawable/map_parent_kid_selector" />
+
+                        <ImageButton
+                            android:id="@+id/ib_map_hit_sos"
+                            style="@style/map_right_icon_style"
+                            android:background="@drawable/map_hit_sos_selector" />
+                    </LinearLayout>
+                </ScrollView>
+                -->
+
+                <include layout="@layout/right_seven_button" />
+            </RelativeLayout>
+            <!-- </LinearLayout> -->
+
+
+            <!-- 左边list人物头像第三层 -->
+
+            <com.cwtcn.kt.ui.SideBar
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/side_bar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ListView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/side_bar_list"
+                    android:layout_width="107dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/sidebar_bg2"
+                    android:cacheColorHint="#00000000"
+                    android:divider="@null"
+                    android:dividerHeight="3dp"
+                    android:listSelector="#00000000"
+                    android:padding="4dp" >
+                </ListView>
+
+                <ImageView
+                    android:id="@+id/side_bar_handler"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/left_out" />
+            </com.cwtcn.kt.ui.SideBar>
+            <!-- android:background="@drawable/xml_left_side" -->
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/map_right_bg"
+        android:paddingLeft="0dp" >
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/sild_name"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:gravity="center"
+                android:textColor="@color/setting_item_text_color"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:background="@drawable/map_right_setting_daohang_bg"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/sild_set"
+                android:textColor="@color/setting_item_text_color"
+                android:textSize="@dimen/setting_changgui_textsize" />
+
+            <TextView
+                android:id="@+id/sild_set_famliy"
+                style="@style/setting_all_item_style"
+                android:text="@string/sild_set_famliy" />
+
+            <View style="@style/setting_item_devide_view" />
+
+            <TextView
+                android:id="@+id/sild_history_location"
+                style="@style/setting_all_item_style"
+                android:text="@string/sild_history_location" />
+
+            <View style="@style/setting_item_devide_view" />
+
+            <TextView
+                android:id="@+id/sild_all_location"
+                style="@style/setting_all_item_style"
+                android:text="@string/sild_all_location" />
+
+            <View style="@style/setting_item_devide_view" />
+
+            <TextView
+                android:id="@+id/sild_time_set"
+                style="@style/setting_all_item_style"
+                android:text="@string/sild_time_set" />
+
+            <View style="@style/setting_item_devide_view" />
+
+            <TextView
+                android:id="@+id/sild_hit_level"
+                style="@style/setting_all_item_style"
+                android:text="@string/sild_hit_set" />
+
+            <View
+                android:id="@+id/sild_hit_level_underline"
+                style="@style/setting_item_devide_view" />
+
+            <TextView
+                android:id="@+id/sild_area"
+                style="@style/setting_all_item_style"
+                android:text="@string/sild_area" />
+
+            <View style="@style/setting_item_devide_view" />
+
+            <TextView
+                android:id="@+id/sild_night_trouble"
+                style="@style/setting_all_item_style"
+                android:text="@string/sild_night_trouble" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="23dp"
+                android:background="@drawable/map_right_setting_daohang_bg"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/setting_about_me"
+                android:textColor="@color/setting_item_text_color"
+                android:textSize="@dimen/setting_changgui_textsize" />
+
+            <TextView
+                android:id="@+id/sild_object"
+                style="@style/setting_all_item_style"
+                android:text="@string/setting_object" />
+
+            <View style="@style/setting_item_devide_view" />
+
+            <TextView
+                android:id="@+id/sild_about"
+                style="@style/setting_all_item_style"
+                android:text="@string/sild_about" />
+
+            <View style="@style/setting_item_devide_view" />
+
+            <TextView
+                android:id="@+id/contact_us"
+                style="@style/setting_all_item_style"
+                android:text="@string/contact_us" />
+
+            <View style="@style/setting_item_devide_view" />
+
+            <Button
+                android:id="@+id/sild_exit"
+                android:layout_width="203dp"
+                android:layout_height="36dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="44dp"
+                android:background="@drawable/setting_btn_exit_selector"
+                android:text="@string/exit"
+                android:textColor="@color/setting_item_text_color"
+                android:textSize="@dimen/setting_right_text_size" />
+        </LinearLayout>
+    </ScrollView>
+
+</com.cwtcn.kt.ui.RightSideBar>

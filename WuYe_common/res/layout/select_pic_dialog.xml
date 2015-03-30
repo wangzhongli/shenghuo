@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:background="@color/dialog_background"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin" >
+
+    <Button
+        android:id="@+id/camera_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_48"
+        android:background="@drawable/btn_pic_selector_background"
+        android:padding="@dimen/activity_margin"
+        android:text="@string/text_camera"
+        android:textSize="@dimen/title_textSize" />
+
+    <Button
+        android:id="@+id/pic_map_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_48"
+        android:layout_marginTop="@dimen/activity_margin"
+        android:background="@drawable/btn_pic_selector_background"
+        android:padding="@dimen/activity_margin"
+        android:text="@string/text_pic_map"
+        android:textSize="@dimen/title_textSize" />
+
+    <Button
+        android:id="@+id/cancel_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_48"
+        android:layout_marginTop="@dimen/activity_margin"
+        android:background="@drawable/btn_cancle_background"
+        android:padding="@dimen/activity_margin"
+        android:text="@string/text_cancel"
+        style="@style/button_color_font"
+         />
+
+</LinearLayout>

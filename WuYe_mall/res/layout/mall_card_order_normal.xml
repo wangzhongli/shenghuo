@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/orderNormalCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/mall_sep_h"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dip" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView_orderSn"
+                style="@style/mall_card_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView_orderTime"
+                style="@style/mall_card_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView_orderState"
+            style="@style/mall_card_order_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include layout="@layout/mall_sep_h" />
+
+    <LinearLayout
+        android:id="@+id/productContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <include layout="@layout/mall_sep_h" />
+
+    <LinearLayout
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:minHeight="44dip"
+        android:orientation="horizontal"
+        android:padding="8dip" >
+
+        <TextView
+            android:id="@+id/button_receive"
+            style="@style/mall_card_bar_button"
+            android:background="@drawable/mall_sl_button_white"
+            android:text="确认收货" />
+
+        <TextView
+            android:id="@+id/button_cancel"
+            style="@style/mall_card_bar_button"
+            android:layout_marginLeft="4dip"
+            android:background="@drawable/mall_sl_button_white"
+            android:text="取消订单" />
+
+        <TextView
+            android:id="@+id/button_pay"
+            style="@style/mall_card_bar_button"
+            android:layout_marginLeft="4dip"
+            android:background="@drawable/mall_sl_button_white"
+            android:text="立即支付" />
+
+        <TextView
+            android:id="@+id/button_delete"
+            style="@style/mall_card_bar_button"
+            android:layout_marginLeft="4dip"
+            android:background="@drawable/mall_sl_button_white"
+            android:text="删除订单" />
+
+        <TextView
+            android:id="@+id/button_review"
+            style="@style/mall_card_bar_button"
+            android:layout_marginLeft="4dip"
+            android:background="@drawable/mall_sl_button_white"
+            android:text="发表评价" />
+    </LinearLayout>
+<include layout="@layout/mall_sep_h"/>
+</LinearLayout>
